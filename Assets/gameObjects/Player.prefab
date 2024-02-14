@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7499625654000637858}
   - component: {fileID: 2596930411404077072}
+  - component: {fileID: 2540313571246966509}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -46,12 +47,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c024f5d4e33f2408e8229d37f1e1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bodyTransform: {fileID: 6160434141206582403}
   playerController: {fileID: 6160434141206582401}
   mystate: 0
+  testphonecontrols: 0
   SpeedMin: 0.1
   SpeedMove: 3
   SpeedPhone: 1
   SpeedCrouch: 2
+  interactSize: 2
+  maxDistance: 3
+  interactUI: {fileID: 0}
+  interactMask:
+    serializedVersion: 2
+    m_Bits: 119
+--- !u!135 &2540313571246966509
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7499625654000637861}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1001 &7499625653672909476
 PrefabInstance:
   m_ObjectHideFlags: 0
