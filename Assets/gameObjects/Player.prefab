@@ -46,12 +46,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c024f5d4e33f2408e8229d37f1e1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerController: {fileID: 6160434141206582401}
+  mystate: 0
   SpeedMin: 0.1
   SpeedMove: 3
   SpeedPhone: 1
   SpeedCrouch: 2
-  playerController: {fileID: 6160434141206582401}
-  mystate: 0
 --- !u!1001 &7499625653672909476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -252,6 +252,11 @@ PrefabInstance:
         type: 3}
       propertyPath: sprintInput
       value: 306
+      objectReference: {fileID: 0}
+    - target: {fileID: 4425428723088313503, guid: fc9b148a2950aaf4cba8422632222c5d,
+        type: 3}
+      propertyPath: locomotionType
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4425428723088313503, guid: fc9b148a2950aaf4cba8422632222c5d,
         type: 3}

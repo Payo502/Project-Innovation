@@ -13,15 +13,21 @@ public class PlayerState : MonoBehaviour
         phone
     };
 
+    [Header("State")]
+    [SerializeField] private vThirdPersonController playerController;
+    [SerializeField] private playerstate mystate;
+    [SerializeField] private bool testphonecontrols;
+
     private float SpeedNow;
+    private float SpeedCrouchNow;
+    [Header("Speed")]
     [SerializeField] private float SpeedMin;
     [SerializeField] private float SpeedMove;
     [SerializeField] private float SpeedPhone;
     [SerializeField] private float SpeedCrouch;
 
-    [SerializeField] private vThirdPersonController playerController;
 
-    [SerializeField] private playerstate mystate;
+
 
 
     // Start is called before the first frame update
@@ -43,13 +49,26 @@ public class PlayerState : MonoBehaviour
             case playerstate.move:
             default:
                 SpeedNow = SpeedMove;
+                SpeedCrouchNow = SpeedCrouch;
                 break;
             case playerstate.phone:
                 SpeedNow = SpeedPhone;
+                SpeedCrouchNow = SpeedMin;
                 break;
         }
         playerController.freeSpeed.runningSpeed = SpeedNow;
-        playerController.strafeSpeed.runningSpeed = SpeedMove;
+        playerController.strafeSpeed.runningSpeed = SpeedNow;
+        playerController.freeSpeed.sprintSpeed = SpeedCrouchNow;
+        playerController.strafeSpeed.sprintSpeed = SpeedCrouchNow;
 
+        if (testphonecontrols && Input.GetKeyDown("space"))
+        {
+            PickupPhone((mystate!=playerstate.phone));
+        }
+    }
+
+    public void PickupPhone(bool Pickedup)
+    {
+        if (Pickedup) { if (mystate == playerstate.move) { mystate = playerstate.phone; } } else { if (mystate == playerstate.phone) { mystate = playerstate.move; } }
     }
 }
