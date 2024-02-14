@@ -6,38 +6,37 @@ public class GuardMovement : MonoBehaviour
 {
     public GuardManager Manager;
     public GameObject Player;
-    private CharacterController Controller;
     float stamina;
     public bool canDo;
+    public Rigidbody guardRigidbody;
 
     private void Start()
     {
-        Controller = this.GetComponent<CharacterController>();
         stamina = 4000;
         canDo = true;
+        guardRigidbody = this.GetComponent<Rigidbody>();
     }
-    void Update()
+    void FixedUpdate()
     {
         if (Manager != null)
         {
             if (Manager.alertLevel > 50 && stamina > 0)
             {
                 this.transform.LookAt(Player.transform.position);
-                Vector3 moving = new Vector3(Player.transform.position.x, Player.transform.position.y + 1, Player.transform.position.z);
-                StartCoroutine(MoveTowards(moving));
+                StartCoroutine(MoveTowards());
             }
         }
     }
 
-    IEnumerator MoveTowards(Vector3 moving)
+    IEnumerator MoveTowards()
     {
         if (Manager != null)
         {
             yield return new WaitForSeconds(2);
             if (Manager.alertStage != AlertStage.Peaceful)
             {
+                guardRigidbody.AddForce(Player.transform.position, ForceMode.Force + 1);
                 stamina--;
-                this.transform.position = Vector3.MoveTowards(this.transform.position, moving, 1f);
                 if (stamina <= 0)
                 {
                     canDo = false;
