@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 public enum AlertStage
@@ -19,31 +20,38 @@ public class GuardManager : MonoBehaviour
     public AlertStage alertStage;
     [Range(0, 100)] public float alertLevel; // 0: Peaceful, 100: Alerted
 
+    public Vector3 interestPosition;
+
     private void Awake()
     {
         alertStage = AlertStage.Peaceful;
         alertLevel = 0;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         bool playerInFOV = false;
-        Collider[] targetsInFOV = Physics.OverlapSphere(
-            transform.position, fov);
-        foreach (Collider c in targetsInFOV)
+        float signedAngle = Vector3.Angle(transform.forward, Movement.Player.transform.position - transform.position);
+        if (Mathf.Abs(signedAngle) < fovAngle / 2)
         {
-            if (c.CompareTag("Player") && Movement.canDo)
+            Debug.Log("Layer 1");
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, fov))
             {
-                float signedAngle = Vector3.Angle(
-                    transform.forward,
-                    c.transform.position - transform.position);
-                if (Mathf.Abs(signedAngle) < fovAngle / 2)
+                Debug.Log(hit.collider.name);
+                if (hit.collider.name == "ThirdPersonController_LITE")
+                {
+                    Debug.Log("Layer 2");
+                }/*
+                if (hit.collider.name == "ThirdPersonController_LITE")
+                {
                     playerInFOV = true;
-                break;
+                    Debug.Log("Layer 3");
+                }*/
             }
         }
-
         _UpdateAlertState(playerInFOV);
+
     }
 
     private void _UpdateAlertState(bool playerInFOV)
