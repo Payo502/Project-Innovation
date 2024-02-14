@@ -870,6 +870,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6160434141206582400, guid: a63dc3cc34eaadd4c94fba0502a01f3d,
+        type: 3}
+      propertyPath: sprintInput
+      value: 306
+      objectReference: {fileID: 0}
+    - target: {fileID: 6160434141206582401, guid: a63dc3cc34eaadd4c94fba0502a01f3d,
+        type: 3}
+      propertyPath: locomotionType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7499625654000637858, guid: a63dc3cc34eaadd4c94fba0502a01f3d,
         type: 3}
       propertyPath: m_RootOrder
