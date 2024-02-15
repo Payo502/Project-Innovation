@@ -21,10 +21,14 @@ public class GuardManager : MonoBehaviour
 
     [SerializeField] LayerMask obstacleLayer;
 
+    GuardLocomotion guardLocomotion;
+
     private void Awake()
     {
         alertStage = AlertStage.Peaceful;
         alertLevel = 0;
+
+        guardLocomotion = GetComponentInParent<GuardLocomotion>();
     }
 
     private void Update()
@@ -76,7 +80,10 @@ public class GuardManager : MonoBehaviour
                 {
                     alertLevel--;
                     if (alertLevel <= 0)
+                    {
                         alertStage = AlertStage.Peaceful;
+                        guardLocomotion.ResumePatrolling();
+                    }
                 }
                 break;
             case AlertStage.Alerted:

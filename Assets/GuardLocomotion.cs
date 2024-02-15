@@ -20,10 +20,13 @@ public class GuardLocomotion : MonoBehaviour
     int waypointIndex;
     Vector3 target;
 
+    GuardManager guardManager;
+
     private void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+        guardManager = GetComponentInChildren<GuardManager>();
     }
 
     private void Start()
@@ -35,10 +38,16 @@ public class GuardLocomotion : MonoBehaviour
     {
         if (!isStopped && !agent.pathPending && agent.remainingDistance < distanceThreshold)
         {
-            if (stopTimer <= 0f)
+            if (stopTimer <= 0f && guardManager.alertStage != AlertStage.Alerted)
             {
                 StartCoroutine(StopAtWaypoint());
             }
+        }
+        else if (guardManager.alertStage == AlertStage.Alerted)
+        {
+            // Stop the NavMeshAgent and look at the player
+            agent.isStopped = true;
+            LookAtPlayer();
         }
 
         animator.SetFloat("Speed", agent.velocity.magnitude);
@@ -72,6 +81,26 @@ public class GuardLocomotion : MonoBehaviour
         {
             waypointIndex = 0;
             Debug.Log(waypointIndex);
+        }
+    }
+
+    private void LookAtPlayer()
+    {
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player)
+        {
+            Vector3 direction = player.transform.position - transform.position;
+            direction.y = 0;
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), Time.deltaTime * 5f);
+        }
+    }
+
+    public void ResumePatrolling()
+    {
+        if (guardManager.alertStage == AlertStage.Peaceful)
+        {
+            agent.isStopped = false;
+            UpdateDestination();
         }
     }
 }
