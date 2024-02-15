@@ -2,6 +2,7 @@ using RiptideNetworking;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class ServerMessageManager : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class ServerMessageManager : MonoBehaviour
     {
         Singleton = this;
     }
-
+    public PlayerState playerState;
 
     #region SEND MESSAGE TYPES FROM SERVER TO CLIENT
     public void SendStringMessagesToClient(ServerToClientId messageId, string messageContent)
@@ -89,6 +90,7 @@ public class ServerMessageManager : MonoBehaviour
     {
         bool content = message.GetBool();
         Debug.Log($"{content} was received by the client");
+        GameObject.Find("networkManager").GetComponent<ServerMessageManager>().playerState.PickupPhone(content);
     }
     #endregion
 

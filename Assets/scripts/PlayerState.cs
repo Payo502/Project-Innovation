@@ -82,9 +82,10 @@ public class PlayerState : MonoBehaviour
         playerController.freeSpeed.sprintSpeed = SpeedCrouchNow;
         playerController.strafeSpeed.sprintSpeed = SpeedCrouchNow;
 
-        if (testphonecontrols && Input.GetKeyDown("space"))
+        if (Input.GetKeyDown("space"))
         {
-            PickupPhone((mystate != playerstate.phone));
+            GameObject.Find("networkManager").GetComponent<ServerMessageManager>().SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
+
         }
 
 
