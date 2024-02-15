@@ -409,7 +409,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 928095308}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.0867, y: 0.78, z: -1.4495777}
+  m_LocalPosition: {x: -3.38, y: 0.78, z: -1.4495777}
   m_LocalScale: {x: 6.611129, y: 2.694585, z: 1.225}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -690,13 +690,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2188108681187174005, guid: 15e95d5bb6f534b4781b34193e698c62,
         type: 3}
+      propertyPath: rate
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2188108681187174005, guid: 15e95d5bb6f534b4781b34193e698c62,
+        type: 3}
       propertyPath: fovAngle
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2188108681187174005, guid: 15e95d5bb6f534b4781b34193e698c62,
+        type: 3}
+      propertyPath: currentLayerMask.m_Bits
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6214585355338012803, guid: 15e95d5bb6f534b4781b34193e698c62,
         type: 3}
       propertyPath: m_Constraints
-      value: 0
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 6748358227153932452, guid: 15e95d5bb6f534b4781b34193e698c62,
         type: 3}

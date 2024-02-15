@@ -35,7 +35,7 @@ public class GuardMovement : MonoBehaviour
             yield return new WaitForSeconds(2);
             if (Manager.alertStage != AlertStage.Peaceful)
             {
-                guardRigidbody.AddForce(Player.transform.position, ForceMode.Force + 1);
+                //guardRigidbody.AddForce(Player.transform.position, ForceMode.Force + 1);
                 stamina--;
                 if (stamina <= 0)
                 {

@@ -102,7 +102,10 @@ public class PlayerState : MonoBehaviour
                 float distanceToObstacle = hit.distance;
                 isInteracting = true;
             }
-            if (isInteracting && mystate != playerstate.machine) { interactUI.SetActive(true); } else { interactUI.SetActive(false); }
+            if (interactUI != null)
+            {
+                if (isInteracting && mystate != playerstate.machine) { interactUI.SetActive(true); } else { interactUI.SetActive(false); }
+            }
         }
     }
 

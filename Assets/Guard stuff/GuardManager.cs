@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 public enum AlertStage
@@ -13,14 +12,14 @@ public enum AlertStage
 public class GuardManager : MonoBehaviour
 {
     public float fov;
-    [Range(0, 360)] public float fovAngle; // in degrees
+    [Range(0, 360)] public float fovAngle;
 
-    public GuardMovement Movement;
+    [SerializeField] float rate = 4;
 
     public AlertStage alertStage;
-    [Range(0, 100)] public float alertLevel; // 0: Peaceful, 100: Alerted
+    [Range(0, 100)] public float alertLevel;
 
-    public Vector3 interestPosition;
+    [SerializeField] LayerMask obstacleLayer;
 
     private void Awake()
     {
@@ -28,30 +27,34 @@ public class GuardManager : MonoBehaviour
         alertLevel = 0;
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         bool playerInFOV = false;
-        float signedAngle = Vector3.Angle(transform.forward, Movement.Player.transform.position - transform.position);
-        if (Mathf.Abs(signedAngle) < fovAngle / 2)
+        Collider[] targetsInFOV = Physics.OverlapSphere(
+            transform.position, fov);
+        foreach (Collider c in targetsInFOV)
         {
-            Debug.Log("Layer 1");
-            RaycastHit hit;
-            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, fov))
+            if (c.CompareTag("Player"))
             {
-                Debug.Log(hit.collider.name);
-                if (hit.collider.name == "ThirdPersonController_LITE")
+                Vector3 directionToTarget = (c.transform.position - transform.position).normalized;
+                float distanceToTarget = Vector3.Distance(transform.position, c.transform.position);
+                float signedAngle = Vector3.Angle(
+                        transform.forward,
+                        directionToTarget);
+
+                if (Mathf.Abs(signedAngle) < fovAngle / 2)
                 {
-                    Debug.Log("Layer 2");
-                }/*
-                if (hit.collider.name == "ThirdPersonController_LITE")
-                {
-                    playerInFOV = true;
-                    Debug.Log("Layer 3");
-                }*/
+                    if (!Physics.Raycast(transform.position, directionToTarget, distanceToTarget, obstacleLayer))
+                    {
+                        playerInFOV = true;
+                        break;
+                    }
+
+                }
             }
         }
-        _UpdateAlertState(playerInFOV);
 
+        _UpdateAlertState(playerInFOV);
     }
 
     private void _UpdateAlertState(bool playerInFOV)
@@ -59,51 +62,29 @@ public class GuardManager : MonoBehaviour
         switch (alertStage)
         {
             case AlertStage.Peaceful:
-                if (playerInFOV && Movement.canDo)
-                {
+                if (playerInFOV)
                     alertStage = AlertStage.Intrigued;
-                }
-                alertLevel = 0;
                 break;
             case AlertStage.Intrigued:
                 if (playerInFOV)
                 {
-                    if (Movement.canDo)
-                    {
-                        alertLevel++;
-                        StartCoroutine(gettingAngry());
-                    }
+                    alertLevel++;
+                    if (alertLevel >= 100)
+                        alertStage = AlertStage.Alerted;
                 }
                 else
                 {
                     alertLevel--;
-                    StartCoroutine(gettingAngry());
+                    if (alertLevel <= 0)
+                        alertStage = AlertStage.Peaceful;
                 }
                 break;
             case AlertStage.Alerted:
                 if (!playerInFOV)
-                {
                     alertStage = AlertStage.Intrigued;
-                }
                 break;
         }
     }
-
-    IEnumerator gettingAngry()
-    {
-        if (alertLevel >= 100)
-        {
-            alertLevel = 100;
-            yield return new WaitForSeconds(1f);
-            alertStage = AlertStage.Alerted;
-
-        }
-        else if (alertLevel <= 0)
-        {
-            alertLevel = 0;
-            yield return new WaitForSeconds(1f);
-            alertStage = AlertStage.Peaceful;
-        }
-    }
-
 }
+
+
