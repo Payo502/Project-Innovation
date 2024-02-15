@@ -69,6 +69,7 @@ public class ServerMessageManager : MonoBehaviour
     {
         string content = message.GetString();
         Debug.Log($"{content} was received by the client");
+        GameObject.Find("LevelManager").GetComponent<EventManager>().soundPlayed(content);
     }
 
     [MessageHandler((ushort)ClientToServerId.intMessage)]

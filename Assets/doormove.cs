@@ -30,4 +30,9 @@ public class doormove : MonoBehaviour
 
         transform.position = start + new Vector3(0f, upwardsHeight * lerp, 0f);
     }
+    
+    public void open (bool open)
+    {
+        up = open;
+    }
 }
