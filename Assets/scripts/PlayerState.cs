@@ -47,6 +47,7 @@ public class PlayerState : MonoBehaviour
         playerController.strafeSpeed.walkSpeed = SpeedMin;
         playerController.strafeSpeed.runningSpeed = SpeedMove;
         playerController.strafeSpeed.sprintSpeed = SpeedPhone;
+
     }
 
     // Update is called once per frame
@@ -110,5 +111,14 @@ public class PlayerState : MonoBehaviour
     public void PickupPhone(bool Pickedup)
     {
         if (Pickedup) { if (mystate == playerstate.move) { mystate = playerstate.phone; } } else { if (mystate == playerstate.phone) { mystate = playerstate.move; } }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        var comp = other.gameObject.GetComponent<audiotrigger>();
+        if (comp != null)
+        {
+            comp.ActivateTrigger();
+        }
     }
 }
