@@ -2261,6 +2261,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Guard (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1820475181028686667, guid: 2395a2c01aaeaa14d915187cec61c0aa,
+        type: 3}
+      propertyPath: obstacleLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 1820475182423952239, guid: 2395a2c01aaeaa14d915187cec61c0aa,
         type: 3}
       propertyPath: waypoints.Array.size
@@ -4341,5 +4346,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 8819130380430384432, guid: b321b6cfd5054234c8694612358acf05,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bcbed19d228eff488bc6f640d630c62, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b321b6cfd5054234c8694612358acf05, type: 3}
