@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4133036218591675669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps
+  Guid:
+    Data1: -1504761998
+    Data2: 1190632248
+    Data3: -184173682
+    Data4: 1600586743
+  Banks:
+  - {fileID: 4500803831572865020}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 937
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16,13 +43,13 @@ MonoBehaviour:
   - {fileID: 4993748157161003507}
   - {fileID: 4500803831572865020}
   EditorEvents:
-  - {fileID: 8666418554381603905}
+  - {fileID: -4133036218591675669}
   EditorParameters: []
   MasterBanks:
   - {fileID: 4500803831572865020}
   StringsBanks:
   - {fileID: 4993748157161003507}
-  cacheTime: 638445408659872151
+  cacheTime: 638445473503366160
   cacheVersion: 131607
 --- !u!114 &4500803831572865020
 MonoBehaviour:
@@ -39,10 +66,10 @@ MonoBehaviour:
   Path: Assets/Sound design/FmodProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638445408659867094
+  lastModified: 638445473503356196
   FileSizes:
   - Name: Desktop
-    Value: 1183904
+    Value: 38752
   Exists: 1
 --- !u!114 &4993748157161003507
 MonoBehaviour:
@@ -59,35 +86,8 @@ MonoBehaviour:
   Path: Assets/Sound design/FmodProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638445408659872151
+  lastModified: 638445473503366160
   FileSizes:
   - Name: Desktop
-    Value: 754
+    Value: 758
   Exists: 1
---- !u!114 &8666418554381603905
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Test
-  m_EditorClassIdentifier: 
-  Path: event:/Test
-  Guid:
-    Data1: -818110780
-    Data2: 1304437203
-    Data3: -1818535018
-    Data4: -1090836599
-  Banks:
-  - {fileID: 4500803831572865020}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 92000
