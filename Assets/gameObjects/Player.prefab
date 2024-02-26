@@ -151,7 +151,8 @@ PrefabInstance:
       propertyPath: cullingLayer.m_Bits
       value: 65
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2700874171910072506, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 330efb0e9eed825408809c121441b8a5, type: 3}
 --- !u!1 &5579796608292139548 stripped
 GameObject:
@@ -342,9 +343,3 @@ MonoBehaviour:
       Data3: -184173682
       Data4: 1600586743
     Path: event:/Footsteps
-  m_Wood: 0
-  m_Water: 0
-  m_Dirt: 0
-  m_Sand: 0
-  m_StepDistance: 0.75
-  m_Debug: 0

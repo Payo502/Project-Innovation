@@ -32,7 +32,21 @@ namespace Invector.vCharacterController
                 animator.SetFloat(vAnimatorParameters.InputVertical, stopMove ? 0 : verticalSpeed, freeSpeed.animationSmooth, Time.deltaTime);
             }
 
-            animator.SetFloat(vAnimatorParameters.InputMagnitude, stopMove ? 0f : inputMagnitude, isStrafing ? strafeSpeed.animationSmooth : freeSpeed.animationSmooth, Time.deltaTime);
+            //animator.SetFloat(vAnimatorParameters.InputMagnitude, stopMove ? 0f : inputMagnitude, isStrafing ? strafeSpeed.animationSmooth : freeSpeed.animationSmooth, Time.deltaTime);
+            float movementSpeed;
+            if (inputMagnitude < 0.1)
+            {
+                movementSpeed = 0;
+            }
+            else if (inputMagnitude > 0.9)
+            {
+                movementSpeed = 1;
+            }
+            else
+            {
+                movementSpeed = inputMagnitude;
+            }
+            animator.SetFloat(vAnimatorParameters.InputMagnitude, stopMove ? 0f : movementSpeed);
         }
 
         public virtual void SetAnimatorMoveSpeed(vMovementSpeed speed)
