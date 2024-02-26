@@ -55,8 +55,8 @@ MonoBehaviour:
   SpeedMove: 3
   SpeedPhone: 1
   SpeedCrouch: 2
-  interactSize: 2
-  maxDistance: 3
+  interactorSource: {fileID: 0}
+  interactRange: 0
   interactUI: {fileID: 0}
   interactMask:
     serializedVersion: 2
@@ -323,3 +323,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 544d165369dfbd746b4cff4206cdda73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8178505844850569545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6160434141206582405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a87b331bcb0dcd41838697360bac358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventPath:
+    Guid:
+      Data1: -1504761998
+      Data2: 1190632248
+      Data3: -184173682
+      Data4: 1600586743
+    Path: event:/Footsteps
+  m_Wood: 0
+  m_Water: 0
+  m_Dirt: 0
+  m_Sand: 0
+  m_StepDistance: 0.75
+  m_Debug: 0
