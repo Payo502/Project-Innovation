@@ -1,4 +1,4 @@
-using RiptideNetworking;
+using Riptide;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,7 +32,7 @@ public class ServerMessageManager : MonoBehaviour
     #region SEND MESSAGE TYPES FROM SERVER TO CLIENT
     public void SendStringMessagesToClient(ServerToClientId messageId, string messageContent)
     {
-        Message message = Message.Create(MessageSendMode.reliable, (ushort)messageId);
+        Message message = Message.Create(MessageSendMode.Reliable, (ushort)messageId);
         message.AddString(messageContent);
         NetworkManager.Singleton.Server.SendToAll(message);
         Debug.Log($"{messageContent} was sent to the client");
@@ -40,7 +40,7 @@ public class ServerMessageManager : MonoBehaviour
 
     public void SendFloatMessagesToClient(ServerToClientId messageId, float messageContent)
     {
-        Message message = Message.Create(MessageSendMode.reliable, (ushort)messageId);
+        Message message = Message.Create(MessageSendMode.Reliable, (ushort)messageId);
         message.AddFloat(messageContent);
         NetworkManager.Singleton.Server.SendToAll(message);
         Debug.Log($"{messageContent} was sent to the client");
@@ -48,7 +48,7 @@ public class ServerMessageManager : MonoBehaviour
 
     public void SendIntMessagesToClient(ServerToClientId messageId, int messageContent)
     {
-        Message message = Message.Create(MessageSendMode.reliable, (ushort)messageId);
+        Message message = Message.Create(MessageSendMode.Reliable, (ushort)messageId);
         message.AddInt(messageContent);
         NetworkManager.Singleton.Server.SendToAll(message);
         Debug.Log($"{messageContent} was sent to the client");
@@ -56,7 +56,7 @@ public class ServerMessageManager : MonoBehaviour
 
     public void SendBoolMessagesToClient(ServerToClientId messageId, bool messageContent)
     {
-        Message message = Message.Create(MessageSendMode.reliable, (ushort)messageId);
+        Message message = Message.Create(MessageSendMode.Reliable, (ushort)messageId);
         message.AddBool(messageContent);
         NetworkManager.Singleton.Server.SendToAll(message);
         Debug.Log($"{messageContent} was sent to the client");

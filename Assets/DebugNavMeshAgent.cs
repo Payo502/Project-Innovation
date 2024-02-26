@@ -26,7 +26,7 @@ public class DebugNavMeshAgent : MonoBehaviour
 
         if (deseiredvelocity)
         {
-            Gizmos.color = Color.green;
+            Gizmos.color = Color.red;
             Gizmos.DrawLine(transform.position, transform.position + agent.desiredVelocity);
         }
 

@@ -14,8 +14,6 @@ public class GuardManager : MonoBehaviour
     public float fov;
     [Range(0, 360)] public float fovAngle;
 
-    [SerializeField] float rate = 4;
-
     public AlertStage alertStage;
     [Range(0, 100)] public float alertLevel;
 

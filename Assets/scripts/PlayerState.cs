@@ -4,9 +4,14 @@ using UnityEngine;
 using Invector.vCharacterController;
 using System;
 
+interface IInteractabe
+{
+    public void Interact();
+}
+
 public class PlayerState : MonoBehaviour
 {
-    enum playerstate
+    public enum playerstate
     {
         move,
         stop,
@@ -29,10 +34,10 @@ public class PlayerState : MonoBehaviour
     [SerializeField] private float SpeedCrouch;
 
     private bool isInteracting;
-    private GameObject interactObject;
+
     [Header("Interacting")]
-    [SerializeField] private float interactSize;
-    [SerializeField] private float maxDistance;
+    [SerializeField] private Transform interactorSource;
+    [SerializeField] private float interactRange;
     [SerializeField] private GameObject interactUI;
     [SerializeField] private LayerMask interactMask;
 
@@ -88,25 +93,22 @@ public class PlayerState : MonoBehaviour
             GameObject.Find("networkManager").GetComponent<ServerMessageManager>().SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
 
         }
-
-
-
     }
 
     private void FixedUpdate()
     {
-        if (mystate == playerstate.move || mystate == playerstate.machine)
+        if (Input.GetKeyDown(KeyCode.E))
         {
+            Debug.Log("CLICKING INTERACT BUTTON");
             isInteracting = false;
-            RaycastHit hit;
-            if (Physics.SphereCast(bodyTransform.position, interactSize, bodyTransform.forward, out hit, maxDistance, interactMask))
+            Ray r = new Ray(interactorSource.position, interactorSource.forward);
+            if (Physics.Raycast(r, out RaycastHit hitInfo, interactRange))
             {
-                float distanceToObstacle = hit.distance;
-                isInteracting = true;
-            }
-            if (interactUI != null)
-            {
-                if (isInteracting && mystate != playerstate.machine) { interactUI.SetActive(true); } else { interactUI.SetActive(false); }
+                if (hitInfo.collider.gameObject.TryGetComponent(out IInteractabe interactObj))
+                {
+                    interactObj.Interact();
+
+                }
             }
         }
     }

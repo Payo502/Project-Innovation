@@ -1,5 +1,5 @@
-using RiptideNetworking;
-using RiptideNetworking.Utils;
+using Riptide;
+using Riptide.Utils;
 using UnityEngine;
 
 public enum ServerToClientId : ushort
@@ -55,11 +55,12 @@ public class NetworkManager : MonoBehaviour
 
         Server = new Server();
         Server.Start(port, maxClientCount);
+
     }
 
     private void FixedUpdate()
     {
-        Server.Tick();
+        Server.Update();
     }
 
     private void OnApplicationQuit()
