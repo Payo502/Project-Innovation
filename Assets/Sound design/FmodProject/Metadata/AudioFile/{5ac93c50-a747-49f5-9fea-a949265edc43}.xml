@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5ac93c50-a747-49f5-9fea-a949265edc43}">
+		<property name="assetPath">
+			<value>CricketsLooped.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>92</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fd9c32ba-3866-4137-a2f7-6fcf2e1e8b0d}</destination>
+		</relationship>
+	</object>
+</objects>
