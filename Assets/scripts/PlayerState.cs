@@ -4,20 +4,16 @@ using UnityEngine;
 using Invector.vCharacterController;
 using System;
 
-interface IInteractabe
+public enum playerstate
 {
-    public void Interact();
-}
+    move,
+    stop,
+    phone,
+    machine
+};
 
 public class PlayerState : MonoBehaviour
-{
-    public enum playerstate
-    {
-        move,
-        stop,
-        phone,
-        machine
-    };
+{ 
 
     [Header("State")]
     [SerializeField] private Transform bodyTransform;
@@ -64,11 +60,6 @@ public class PlayerState : MonoBehaviour
             default:
                 SpeedNow = SpeedMove;
                 SpeedCrouchNow = SpeedCrouch;
-
-                if (isInteracting && Input.GetKeyDown(KeyCode.E))
-                {
-                    mystate = playerstate.machine;
-                }
                 break;
             case playerstate.phone:
                 SpeedNow = SpeedPhone;
@@ -92,24 +83,6 @@ public class PlayerState : MonoBehaviour
         {
             GameObject.Find("networkManager").GetComponent<ServerMessageManager>().SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
 
-        }
-    }
-
-    private void FixedUpdate()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log("CLICKING INTERACT BUTTON");
-            isInteracting = false;
-            Ray r = new Ray(interactorSource.position, interactorSource.forward);
-            if (Physics.Raycast(r, out RaycastHit hitInfo, interactRange))
-            {
-                if (hitInfo.collider.gameObject.TryGetComponent(out IInteractabe interactObj))
-                {
-                    interactObj.Interact();
-
-                }
-            }
         }
     }
 

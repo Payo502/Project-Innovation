@@ -9,8 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7499625654000637858}
-  - component: {fileID: 2596930411404077072}
-  - component: {fileID: 2540313571246966509}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -35,45 +33,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2596930411404077072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7499625654000637861}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60c024f5d4e33f2408e8229d37f1e1b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bodyTransform: {fileID: 6160434141206582403}
-  playerController: {fileID: 6160434141206582401}
-  mystate: 0
-  testphonecontrols: 0
-  SpeedMin: 0.1
-  SpeedMove: 3
-  SpeedPhone: 1
-  SpeedCrouch: 2
-  interactorSource: {fileID: 0}
-  interactRange: 0
-  interactUI: {fileID: 0}
-  interactMask:
-    serializedVersion: 2
-    m_Bits: 119
---- !u!135 &2540313571246966509
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7499625654000637861}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1
-  m_Center: {x: 0, y: 1, z: 0}
 --- !u!1001 &7499625653672909476
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84,7 +43,7 @@ PrefabInstance:
     - target: {fileID: 2700874171910072504, guid: 330efb0e9eed825408809c121441b8a5,
         type: 3}
       propertyPath: m_Name
-      value: vThirdPersonCamera_LITE
+      value: Camera Rig
       objectReference: {fileID: 0}
     - target: {fileID: 2700874171910072505, guid: 330efb0e9eed825408809c121441b8a5,
         type: 3}
@@ -208,7 +167,7 @@ PrefabInstance:
     - target: {fileID: 4425428723088313499, guid: fc9b148a2950aaf4cba8422632222c5d,
         type: 3}
       propertyPath: m_Name
-      value: ThirdPersonController_LITE
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4425428723088313501, guid: fc9b148a2950aaf4cba8422632222c5d,
         type: 3}
@@ -287,18 +246,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9b148a2950aaf4cba8422632222c5d, type: 3}
---- !u!114 &6160434141206582401 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4425428723088313503, guid: fc9b148a2950aaf4cba8422632222c5d,
-    type: 3}
-  m_PrefabInstance: {fileID: 7499625654329268254}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6160434141206582405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73fbf3aa05f6be24780438449f505aa3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &6160434141206582403 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4425428723088313501, guid: fc9b148a2950aaf4cba8422632222c5d,
