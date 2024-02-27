@@ -21,6 +21,8 @@ public class GuardManager : MonoBehaviour
 
     GuardLocomotion guardLocomotion;
 
+    public int frequency;
+
     private void Awake()
     {
         alertStage = AlertStage.Peaceful;
