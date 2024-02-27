@@ -61,7 +61,9 @@ namespace Invector.vCharacterController
         {
             if (input.magnitude <= 0.01)
             {
-                moveDirection = Vector3.Lerp(moveDirection, Vector3.zero, (isStrafing ? strafeSpeed.movementSmooth : freeSpeed.movementSmooth) * Time.deltaTime);
+                // TODO UNCOMMENT
+                //moveDirection = Vector3.Lerp(moveDirection, Vector3.zero, (isStrafing ? strafeSpeed.movementSmooth : freeSpeed.movementSmooth) * Time.deltaTime);
+                moveDirection = Vector3.zero;
                 return;
             }
 
