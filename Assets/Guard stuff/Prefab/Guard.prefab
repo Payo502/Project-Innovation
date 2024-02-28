@@ -491,12 +491,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fov: 10
   fovAngle: 60
-  rate: 10
   alertStage: 0
   alertLevel: 0
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 256
+  frequency: 1
 --- !u!1 &1820475182423952226
 GameObject:
   m_ObjectHideFlags: 0

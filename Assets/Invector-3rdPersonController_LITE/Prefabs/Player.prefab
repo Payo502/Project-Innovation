@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 1995}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5954299995953128897
@@ -281,7 +281,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 2.002}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 800, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &5954299997226241359
@@ -1655,9 +1655,9 @@ GameObject:
   - component: {fileID: 8055721159486047633}
   - component: {fileID: 8055721159486047632}
   - component: {fileID: 6582982655676410815}
-  - component: {fileID: 1096718855759564414}
   - component: {fileID: 5461188747125792863}
   - component: {fileID: 8055721159486047336}
+  - component: {fileID: 2661236036503944751}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1672,7 +1672,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8055721159486047635}
-  m_LocalRotation: {x: -0, y: -1, z: 0, w: -0.0000001872535}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.0000001872535}
   m_LocalPosition: {x: -3.17, y: 2.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1750,7 +1750,7 @@ MonoBehaviour:
   limitFallVelocity: -15
   groundLayer:
     serializedVersion: 2
-    m_Bits: 65
+    m_Bits: 321
   groundMinDistance: 0.25
   groundMaxDistance: 0.5
   slopeLimit: 45
@@ -1818,33 +1818,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 544d165369dfbd746b4cff4206cdda73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1096718855759564414
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8055721159486047635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60c024f5d4e33f2408e8229d37f1e1b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  frequency: 0
-  bodyTransform: {fileID: 8055721159197675601}
-  playerController: {fileID: 8055721159486047639}
-  mystate: 0
-  testphonecontrols: 0
-  SpeedMin: 2
-  SpeedMove: 3
-  SpeedPhone: 0
-  SpeedCrouch: 0
-  interactorSource: {fileID: 0}
-  interactRange: 0
-  interactUI: {fileID: 0}
-  interactMask:
-    serializedVersion: 2
-    m_Bits: 0
 --- !u!114 &5461188747125792863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1883,6 +1856,32 @@ MonoBehaviour:
     m_Bits: 128
   interactionPromptUI: {fileID: 5954299997226241344}
   numFound: 0
+--- !u!114 &2661236036503944751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8055721159486047635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c024f5d4e33f2408e8229d37f1e1b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bodyTransform: {fileID: 0}
+  playerController: {fileID: 0}
+  mystate: 0
+  testphonecontrols: 0
+  SpeedMin: 1
+  SpeedMove: 3
+  SpeedPhone: 2
+  SpeedCrouch: 2
+  interactorSource: {fileID: 0}
+  interactRange: 0
+  interactUI: {fileID: 0}
+  interactMask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &8055721159531518568
 GameObject:
   m_ObjectHideFlags: 0

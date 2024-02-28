@@ -12,5 +12,10 @@ namespace FMODUtilityPackage.Enums
 		/// event:/Footsteps
 		/// </FMODEventPath>
 		Footsteps,
+
+		/// <FMODEventPath>
+		/// event:/MC_Footsteps
+		/// </FMODEventPath>
+		MC_Footsteps,
 	}
 }

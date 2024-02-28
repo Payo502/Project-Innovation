@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{650023a5-8ea3-43cf-9f58-b22802b132a5}">
+		<property name="assetPath">
+			<value>MC_Footsteps2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.70167800453514739</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fd9c32ba-3866-4137-a2f7-6fcf2e1e8b0d}</destination>
+		</relationship>
+	</object>
+</objects>
