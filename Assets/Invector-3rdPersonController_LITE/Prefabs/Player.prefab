@@ -1749,7 +1749,7 @@ MonoBehaviour:
   limitFallVelocity: -15
   groundLayer:
     serializedVersion: 2
-    m_Bits: 65
+    m_Bits: 321
   groundMinDistance: 0.25
   groundMaxDistance: 0.5
   slopeLimit: 45
@@ -1836,12 +1836,6 @@ MonoBehaviour:
       Data3: -184173682
       Data4: 1600586743
     Path: event:/Footsteps
-  m_Wood: 0
-  m_Water: 0
-  m_Dirt: 0
-  m_Sand: 0
-  m_StepDistance: 0.75
-  m_Debug: 0
 --- !u!114 &8055721159486047336
 MonoBehaviour:
   m_ObjectHideFlags: 0
