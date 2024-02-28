@@ -21,7 +21,7 @@ public class GuardManager : MonoBehaviour
 
     GuardLocomotion guardLocomotion;
 
-    public int frequency;
+    public Frequency currentFrequency;
 
     private void Awake()
     {
@@ -76,7 +76,7 @@ public class GuardManager : MonoBehaviour
                     if (alertLevel >= 100)
                     {
                         alertStage = AlertStage.Alerted;
-                        FindObjectOfType<GameManager>().EndGame();
+                        EndGame();
                     }
                 }
                 else
@@ -94,6 +94,11 @@ public class GuardManager : MonoBehaviour
                     alertStage = AlertStage.Intrigued;
                 break;
         }
+    }
+
+    void EndGame()
+    {
+        FindObjectOfType<GameManager>().EndGame();
     }
 }
 

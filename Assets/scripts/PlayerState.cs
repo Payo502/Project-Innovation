@@ -4,18 +4,11 @@ using UnityEngine;
 using Invector.vCharacterController;
 using System;
 
-public enum playerstate
-{
-    move,
-    stop,
-    phone,
-    machine
-};
 
 public class PlayerState : MonoBehaviour
 {
     [Header("Frequency")]
-    [SerializeField] private int frequency = 0;
+    [SerializeField] private Frequency currentFrequency;
 
     [Header("State")]
     [SerializeField] private Transform bodyTransform;
@@ -30,6 +23,9 @@ public class PlayerState : MonoBehaviour
     [SerializeField] private float SpeedMove;
     [SerializeField] private float SpeedPhone;
     [SerializeField] private float SpeedCrouch;
+
+    [Header("Controlling Guards")]
+    [SerializeField] private Transform guardsLocation;
 
     private bool isInteracting;
 
@@ -79,6 +75,11 @@ public class PlayerState : MonoBehaviour
             GameObject.Find("networkManager").GetComponent<ServerMessageManager>().SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
 
         }
+
+        if (Input.GetKeyDown(KeyCode.G))
+        {
+            DirectGuardsToLocation(guardsLocation.position);
+        }
     }
 
     public void PickupPhone(bool Pickedup)
@@ -95,8 +96,23 @@ public class PlayerState : MonoBehaviour
         }
     }
 
-    public void ChangeFrequency(int newAmount)
+    public void DirectGuardsToLocation(Vector3 location)
     {
-        frequency = newAmount;
+        GameObject[] guardObjects = GameObject.FindGameObjectsWithTag("Guard");
+
+        foreach (GameObject guard in guardObjects)
+        {
+            GuardManager guardManager = guard.GetComponentInChildren<GuardManager>();
+            if (guardManager != null && guardManager.currentFrequency == currentFrequency)
+            {
+                guardManager.GetComponentInParent<GuardLocomotion>().MoveToLocation(location);
+                Debug.Log(guardManager);
+            }
+        }
+    }
+
+    public void ChangeFrequency(Frequency newFrequency)
+    {
+        currentFrequency = newFrequency;
     }
 }

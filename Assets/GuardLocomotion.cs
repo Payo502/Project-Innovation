@@ -95,6 +95,15 @@ public class GuardLocomotion : MonoBehaviour
         }
     }
 
+    public void MoveToLocation(Vector3 location)
+    {
+        if (agent != null)
+        {
+            agent.SetDestination(location);
+            isStopped = false;
+        }
+    }
+
     public void ResumePatrolling()
     {
         if (guardManager.alertStage == AlertStage.Peaceful)
