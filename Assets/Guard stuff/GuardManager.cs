@@ -72,7 +72,10 @@ public class GuardManager : MonoBehaviour
                 {
                     alertLevel++;
                     if (alertLevel >= 100)
+                    {
                         alertStage = AlertStage.Alerted;
+                        FindObjectOfType<GameManager>().EndGame();
+                    }
                 }
                 else
                 {

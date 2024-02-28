@@ -13,7 +13,9 @@ public enum playerstate
 };
 
 public class PlayerState : MonoBehaviour
-{ 
+{
+    [Header("Frequency")]
+    [SerializeField] private int frequency = 0;
 
     [Header("State")]
     [SerializeField] private Transform bodyTransform;
@@ -30,13 +32,6 @@ public class PlayerState : MonoBehaviour
     [SerializeField] private float SpeedCrouch;
 
     private bool isInteracting;
-
-    [Header("Interacting")]
-    [SerializeField] private Transform interactorSource;
-    [SerializeField] private float interactRange;
-    [SerializeField] private GameObject interactUI;
-    [SerializeField] private LayerMask interactMask;
-
 
     // Start is called before the first frame update
     void Start()
@@ -98,5 +93,10 @@ public class PlayerState : MonoBehaviour
         {
             comp.ActivateTrigger();
         }
+    }
+
+    public void ChangeFrequency(int newAmount)
+    {
+        frequency = newAmount;
     }
 }
