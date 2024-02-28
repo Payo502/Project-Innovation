@@ -35,11 +35,6 @@ public class PlayerState : MonoBehaviour
 
     private bool isInteracting;
 
-    [Header("Interacting")]
-    [SerializeField] private Transform interactorSource;
-    [SerializeField] private float interactRange;
-    [SerializeField] private GameObject interactUI;
-    [SerializeField] private LayerMask interactMask;
 
 
     // Start is called before the first frame update
@@ -95,23 +90,6 @@ public class PlayerState : MonoBehaviour
         }
     }
 
-    private void FixedUpdate()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log("CLICKING INTERACT BUTTON");
-            isInteracting = false;
-            Ray r = new Ray(interactorSource.position, interactorSource.forward);
-            if (Physics.Raycast(r, out RaycastHit hitInfo, interactRange))
-            {
-                if (hitInfo.collider.gameObject.TryGetComponent(out IInteractabe interactObj))
-                {
-                    interactObj.Interact();
-
-                }
-            }
-        }
-    }
 
     public void PickupPhone(bool Pickedup)
     {
