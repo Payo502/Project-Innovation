@@ -58,7 +58,7 @@ public class GuardLocomotion : MonoBehaviour
         isStopped = true;
         agent.isStopped = true;
 
-        yield return new WaitForSeconds(stopDuration); 
+        yield return new WaitForSeconds(stopDuration);
 
 
         agent.isStopped = false;
