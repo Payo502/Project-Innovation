@@ -58,7 +58,7 @@ public class GuardLocomotion : MonoBehaviour
         isStopped = true;
         agent.isStopped = true;
 
-        yield return new WaitForSeconds(stopDuration); 
+        yield return new WaitForSeconds(stopDuration);
 
 
         agent.isStopped = false;
@@ -92,6 +92,15 @@ public class GuardLocomotion : MonoBehaviour
             Vector3 direction = player.transform.position - transform.position;
             direction.y = 0;
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(direction), Time.deltaTime * 5f);
+        }
+    }
+
+    public void MoveToLocation(Vector3 location)
+    {
+        if (agent != null)
+        {
+            agent.SetDestination(location);
+            isStopped = false;
         }
     }
 

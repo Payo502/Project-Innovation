@@ -1657,6 +1657,7 @@ GameObject:
   - component: {fileID: 6582982655676410815}
   - component: {fileID: 5461188747125792863}
   - component: {fileID: 8055721159486047336}
+  - component: {fileID: 2661236036503944751}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1671,7 +1672,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8055721159486047635}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: -0.0000001872535}
+  m_LocalRotation: {x: -0, y: -1, z: 0, w: -0.0000001872535}
   m_LocalPosition: {x: -3.17, y: 2.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1749,7 +1750,7 @@ MonoBehaviour:
   limitFallVelocity: -15
   groundLayer:
     serializedVersion: 2
-    m_Bits: 65
+    m_Bits: 321
   groundMinDistance: 0.25
   groundMaxDistance: 0.5
   slopeLimit: 45
@@ -1836,12 +1837,6 @@ MonoBehaviour:
       Data3: -184173682
       Data4: 1600586743
     Path: event:/Footsteps
-  m_Wood: 0
-  m_Water: 0
-  m_Dirt: 0
-  m_Sand: 0
-  m_StepDistance: 0.75
-  m_Debug: 0
 --- !u!114 &8055721159486047336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1861,6 +1856,27 @@ MonoBehaviour:
     m_Bits: 128
   interactionPromptUI: {fileID: 5954299997226241344}
   numFound: 0
+--- !u!114 &2661236036503944751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8055721159486047635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60c024f5d4e33f2408e8229d37f1e1b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frequency: 0
+  bodyTransform: {fileID: 8055721159197675601}
+  playerController: {fileID: 8055721159486047639}
+  mystate: 0
+  testphonecontrols: 0
+  SpeedMin: 1
+  SpeedMove: 3
+  SpeedPhone: 2
+  SpeedCrouch: 2
 --- !u!1 &8055721159531518568
 GameObject:
   m_ObjectHideFlags: 0

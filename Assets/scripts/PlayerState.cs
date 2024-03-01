@@ -4,20 +4,11 @@ using UnityEngine;
 using Invector.vCharacterController;
 using System;
 
-interface IInteractabe
-{
-    public void Interact();
-}
 
 public class PlayerState : MonoBehaviour
 {
-    public enum playerstate
-    {
-        move,
-        stop,
-        phone,
-        machine
-    };
+    [Header("Frequency")]
+    [SerializeField] private Frequency currentFrequency;
 
     [Header("State")]
     [SerializeField] private Transform bodyTransform;
@@ -33,14 +24,10 @@ public class PlayerState : MonoBehaviour
     [SerializeField] private float SpeedPhone;
     [SerializeField] private float SpeedCrouch;
 
+    [Header("Controlling Guards")]
+    [SerializeField] private Transform guardsLocation;
+
     private bool isInteracting;
-
-    [Header("Interacting")]
-    [SerializeField] private Transform interactorSource;
-    [SerializeField] private float interactRange;
-    [SerializeField] private GameObject interactUI;
-    [SerializeField] private LayerMask interactMask;
-
 
     // Start is called before the first frame update
     void Start()
@@ -64,11 +51,6 @@ public class PlayerState : MonoBehaviour
             default:
                 SpeedNow = SpeedMove;
                 SpeedCrouchNow = SpeedCrouch;
-
-                if (isInteracting && Input.GetKeyDown(KeyCode.E))
-                {
-                    mystate = playerstate.machine;
-                }
                 break;
             case playerstate.phone:
                 SpeedNow = SpeedPhone;
@@ -93,23 +75,10 @@ public class PlayerState : MonoBehaviour
             GameObject.Find("networkManager").GetComponent<ServerMessageManager>().SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
 
         }
-    }
 
-    private void FixedUpdate()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.G))
         {
-            Debug.Log("CLICKING INTERACT BUTTON");
-            isInteracting = false;
-            Ray r = new Ray(interactorSource.position, interactorSource.forward);
-            if (Physics.Raycast(r, out RaycastHit hitInfo, interactRange))
-            {
-                if (hitInfo.collider.gameObject.TryGetComponent(out IInteractabe interactObj))
-                {
-                    interactObj.Interact();
-
-                }
-            }
+            DirectGuardsToLocation(guardsLocation.position);
         }
     }
 
@@ -125,5 +94,25 @@ public class PlayerState : MonoBehaviour
         {
             comp.ActivateTrigger();
         }
+    }
+
+    public void DirectGuardsToLocation(Vector3 location)
+    {
+        GameObject[] guardObjects = GameObject.FindGameObjectsWithTag("Guard");
+
+        foreach (GameObject guard in guardObjects)
+        {
+            GuardManager guardManager = guard.GetComponentInChildren<GuardManager>();
+            if (guardManager != null && guardManager.currentFrequency == currentFrequency)
+            {
+                guardManager.GetComponentInParent<GuardLocomotion>().MoveToLocation(location);
+                Debug.Log(guardManager);
+            }
+        }
+    }
+
+    public void ChangeFrequency(Frequency newFrequency)
+    {
+        currentFrequency = newFrequency;
     }
 }
