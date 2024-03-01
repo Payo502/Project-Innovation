@@ -91,7 +91,7 @@ public class ServerMessageManager : MonoBehaviour
     {
         bool content = message.GetBool();
         Debug.Log($"{content} was received by the client");
-        GameObject.Find("networkManager").GetComponent<ServerMessageManager>().playerState.PickupPhone(content);
+        GameObject.Find("NetworkManager").GetComponent<ServerMessageManager>().playerState.PickupPhone(content);
     }
     #endregion
 

@@ -7,6 +7,7 @@ TagManager:
   - Solid
   - Interactable
   - Wall
+  - Guard
   layers:
   - Default
   - TransparentFX
