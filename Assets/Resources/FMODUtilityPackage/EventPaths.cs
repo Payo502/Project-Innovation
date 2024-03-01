@@ -125,7 +125,7 @@ namespace FMODUtilityPackage.Core
 				TextAsset file = Resources.Load<TextAsset>("FmodUtils/EventPaths");
 
 				string[] lines = file.ToString().Split(Environment.NewLine);
-				EventType[] eventTypes = default(EventType).GetValues().ToArray();
+				AudioEventType[] eventTypes = default(AudioEventType).GetValues().ToArray();
 
 				for (int i = 0; i < events.Count; i++)
 				{
@@ -145,7 +145,7 @@ namespace FMODUtilityPackage.Core
 		}
 #endif
 
-		private void SetBusPaths()
+        private void SetBusPaths()
 		{
 			int busCount = buses.Count;
 

@@ -12,9 +12,9 @@ namespace FMODUtilityPackage.Core
 	/// </summary>
 	public class AudioManager : Singleton<AudioManager>, ISerializationCallbackReceiver
 	{
-		public EventPaths EventPaths;
+        public FMODUtilityPackage.Core.EventPaths EventPaths;
 
-		[SerializeField]
+        [SerializeField]
 		private List<InitialVolumePerBus> initialVolumes = new List<InitialVolumePerBus>();
 
 		protected override void Awake()
