@@ -124,7 +124,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 509f91942e574864480bdc3184d15c3d, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 465eeedbbfe160247be3542bd5b8d609, type: 2}
 --- !u!1 &13125543 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8bf6dbc2ba50e99448d9b0f571a4bde9,
@@ -1828,8 +1828,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221497555}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 9.68, z: -10.51}
-  m_LocalScale: {x: 1, y: 1, z: 1.1025}
+  m_LocalPosition: {x: 0, y: 9.68, z: -11.0633}
+  m_LocalScale: {x: 1, y: 1, z: 1.1948183}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1697273353}
@@ -15834,7 +15834,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a40176614e917be4c829755728986d98,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18
+      value: 17.514
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a40176614e917be4c829755728986d98,
         type: 3}
@@ -15844,7 +15844,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a40176614e917be4c829755728986d98,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.6399994
+      value: 1.604
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a40176614e917be4c829755728986d98,
         type: 3}
