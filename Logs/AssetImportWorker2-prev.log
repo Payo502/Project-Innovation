@@ -1,0 +1,247 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 65315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Apps\Unity\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Saxion Work/3_1 Project Innovation/Project-Innovation
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59836
+Successfully changed project path to: D:/Saxion Work/3_1 Project Innovation/Project-Innovation
+D:/Saxion Work/3_1 Project Innovation/Project-Innovation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [40020] Host "[IP] 192.168.178.164 [Port] 0 [Flags] 2 [Guid] 803483555 [EditorId] 803483555 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BCVUE551) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [40020] Host "[IP] 192.168.178.164 [Port] 0 [Flags] 2 [Guid] 803483555 [EditorId] 803483555 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BCVUE551) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 138.36 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.53 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path D:/Apps/Unity/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Saxion Work/3_1 Project Innovation/Project-Innovation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA RTX A3000 Laptop GPU (ID=0x24b8)
+    Vendor:   NVIDIA
+    VRAM:     6016 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'D:/Apps/Unity/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Apps/Unity/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Apps/Unity/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Apps/Unity/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Apps/Unity/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001760 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 337 ms
+Refreshing native plugins compatible for Editor in 80.03 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (904ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (764ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (616ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (434ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 84.47 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.405 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1405ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1217ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (815ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (575ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.43 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 5068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (0.7 MB). Loaded Objects now: 5432.
+Memory consumption went from 207.3 MB to 206.6 MB.
+Total: 3.459500 ms (FindLiveObjects: 0.330000 ms CreateObjectMapping: 0.173000 ms MarkObjects: 2.655300 ms  DeleteObjects: 0.300300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33413.058422 seconds.
+  path: Assets/Art/Materials/Poster.mat
+  artifactKey: Guid(93a44539cbbe8454eb490ee1fd28cc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Materials/Poster.mat using Guid(93a44539cbbe8454eb490ee1fd28cc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1577793c8bc079f6516928b2437682ba') in 0.200194 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 8.308250 seconds.
+  path: Assets/Art/Textures/Cabinet_BookCovers_AlbedoTransparency.png
+  artifactKey: Guid(f31688cb9a0441d4db443b1ba38c217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Cabinet_BookCovers_AlbedoTransparency.png using Guid(f31688cb9a0441d4db443b1ba38c217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc4568c1246db33aac62a40edfa006c') in 0.026925 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Textures/Lamp_Rods_Emissive.png
+  artifactKey: Guid(c889ef63d9a2a554fb48021755d8b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Lamp_Rods_Emissive.png using Guid(c889ef63d9a2a554fb48021755d8b20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e33942529083850f29a80364615768') in 0.014248 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Textures/Chair_Metal_Metallic.png
+  artifactKey: Guid(22a0e525870c45b4aae21cff17b4fbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Chair_Metal_Metallic.png using Guid(22a0e525870c45b4aae21cff17b4fbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d3e0fe80037d91a478abdcb01b8f9f') in 0.016453 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Art/Textures/Monitors_Screen_Emissive.png
+  artifactKey: Guid(69e28fc238d14f64481346ed74f0d128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Monitors_Screen_Emissive.png using Guid(69e28fc238d14f64481346ed74f0d128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ef8cf0676ef6eb60e66318b4e2c3e6') in 0.017678 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Textures/Monitors_standardSurface1_BaseColor.png
+  artifactKey: Guid(3d65630b09064cd449a5c03c8fe4eea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Monitors_standardSurface1_BaseColor.png using Guid(3d65630b09064cd449a5c03c8fe4eea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15da492aaad0dba2b11353226fe05c99') in 0.017237 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Textures/Cabinet_InsideShelf_AlbedoTransparency.png
+  artifactKey: Guid(5300da00eb6198a45943ed81e2ed6476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Cabinet_InsideShelf_AlbedoTransparency.png using Guid(5300da00eb6198a45943ed81e2ed6476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88dafa351e202f7f4030d7a715ae08b8') in 0.013194 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/Textures/Cabinet_initialShadingGroup_AlbedoTransparency.png
+  artifactKey: Guid(0036637862b184d4ebe330361fbef709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Cabinet_initialShadingGroup_AlbedoTransparency.png using Guid(0036637862b184d4ebe330361fbef709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6290672ca57bbf8e94713be1c92da2a1') in 0.011387 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Textures/Cubicles_Desk_BaseColor.png
+  artifactKey: Guid(46996a413727dc64a8b5f53edb98a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Cubicles_Desk_BaseColor.png using Guid(46996a413727dc64a8b5f53edb98a41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0612286ff0a1c6f36aa86c8dbacd2c') in 0.026339 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

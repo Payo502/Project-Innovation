@@ -1,0 +1,291 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 65315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Apps\Unity\2021.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Saxion Work/3_1 Project Innovation/Project-Innovation
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59836
+Successfully changed project path to: D:/Saxion Work/3_1 Project Innovation/Project-Innovation
+D:/Saxion Work/3_1 Project Innovation/Project-Innovation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [30540] Host "[IP] 192.168.178.164 [Port] 0 [Flags] 2 [Guid] 844462681 [EditorId] 844462681 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BCVUE551) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30540] Host "[IP] 192.168.178.164 [Port] 0 [Flags] 2 [Guid] 844462681 [EditorId] 844462681 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BCVUE551) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 94.58 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.31 ms.
+Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
+[Subsystems] Discovering subsystems at path D:/Apps/Unity/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Saxion Work/3_1 Project Innovation/Project-Innovation/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA RTX A3000 Laptop GPU (ID=0x24b8)
+    Vendor:   NVIDIA
+    VRAM:     6016 MB
+    Driver:   31.0.15.1640
+Initialize mono
+Mono path[0] = 'D:/Apps/Unity/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Apps/Unity/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Apps/Unity/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Apps/Unity/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Apps/Unity/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001667 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 277 ms
+Refreshing native plugins compatible for Editor in 83.22 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.822 seconds
+Domain Reload Profiling:
+	ReloadAssembly (823ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (682ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (86ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (544ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (365ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (61ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008320 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 88.84 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.404 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1405ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1222ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (810ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (567ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 5068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (0.7 MB). Loaded Objects now: 5431.
+Memory consumption went from 207.3 MB to 206.6 MB.
+Total: 7.623100 ms (FindLiveObjects: 0.686100 ms CreateObjectMapping: 0.591000 ms MarkObjects: 5.802400 ms  DeleteObjects: 0.541300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 33399.275382 seconds.
+  path: Assets/Art/Materials/chairMetal.mat
+  artifactKey: Guid(1b6263c1dfa8ff04ab05b4afce584912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Materials/chairMetal.mat using Guid(1b6263c1dfa8ff04ab05b4afce584912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c291e4987110fe2338773e5a954f6a') in 0.256216 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Materials/cubiclesWall.mat
+  artifactKey: Guid(411caac7f3e08564282f27f42e04cf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Materials/cubiclesWall.mat using Guid(411caac7f3e08564282f27f42e04cf37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1517fd6bee9036ed572ab130e323e4') in 0.027019 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Materials/shelfBooks.mat
+  artifactKey: Guid(dc71fcea6f11a38428121b1d73d5f3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Materials/shelfBooks.mat using Guid(dc71fcea6f11a38428121b1d73d5f3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54668cae19a752bd609779385f8e92f') in 0.024058 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/Materials/lampPlastic.mat
+  artifactKey: Guid(57d07b639a1dc954881cb73e1b535832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Materials/lampPlastic.mat using Guid(57d07b639a1dc954881cb73e1b535832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b460b736b8a0ba65475a657589d958b2') in 0.019178 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Materials/cubiclesPlastic.mat
+  artifactKey: Guid(048f57f333730944a8245682d5b3a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Materials/cubiclesPlastic.mat using Guid(048f57f333730944a8245682d5b3a9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5753c7995199dc478b2248fe686ef97') in 0.024198 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Materials/monitorPlastic.mat
+  artifactKey: Guid(cc0da8d8bd8dda249a9c1118ed47dac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Materials/monitorPlastic.mat using Guid(cc0da8d8bd8dda249a9c1118ed47dac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3a1803101cd73737c732153d0f92cc') in 0.031273 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 21.870660 seconds.
+  path: Assets/Art/Textures/Cabinet_BookCovers_Normal.png
+  artifactKey: Guid(d5a05e31ccce40b4e889f914c37ae5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Cabinet_BookCovers_Normal.png using Guid(d5a05e31ccce40b4e889f914c37ae5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b798523fe2c5e4e85e00340c16a9a350') in 0.022430 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/Textures/Chair_Fabric_BaseColor.png
+  artifactKey: Guid(2750533a3b19c3c46b964a0c31dc11fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Chair_Fabric_BaseColor.png using Guid(2750533a3b19c3c46b964a0c31dc11fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a076a8603384b7fdb4c289761e6c44') in 0.010060 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Textures/Chair_Plastic_BaseColor.png
+  artifactKey: Guid(f01e957de73a47d4eaaa81d4c50d0ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Chair_Plastic_BaseColor.png using Guid(f01e957de73a47d4eaaa81d4c50d0ea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '089f2d51cd88258436806eb69c3a05c9') in 0.020351 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Art/Textures/Lamp_DarkPlastic_Metallic.png
+  artifactKey: Guid(e6e16784853d9634296d55fec8623c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Lamp_DarkPlastic_Metallic.png using Guid(e6e16784853d9634296d55fec8623c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b85b5b6ab32ae86677be88a592a38a1') in 0.009153 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/Textures/Cabinet_handleShelf_MetallicSmoothness.png
+  artifactKey: Guid(53ace1b039383f64ea4f25ae35029014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Cabinet_handleShelf_MetallicSmoothness.png using Guid(53ace1b039383f64ea4f25ae35029014) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f98c6f452bd1f67801f96371b5c674') in 0.025706 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Art/Textures/Chair_Plastic_Metallic.png
+  artifactKey: Guid(d1fc0ca2679632b4c928e51ac45b3fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Chair_Plastic_Metallic.png using Guid(d1fc0ca2679632b4c928e51ac45b3fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9dd1c1f68047145413d7f3d424749f') in 0.008242 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/Textures/Cabinet_initialShadingGroup_Normal.png
+  artifactKey: Guid(9fbdfb771207dec479c35cec2837418d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Cabinet_initialShadingGroup_Normal.png using Guid(9fbdfb771207dec479c35cec2837418d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c6cc01b74243ea3d74c4f5894c7099') in 0.023382 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Art/Textures/Cabinet_initialShadingGroup_MetallicSmoothness.png
+  artifactKey: Guid(9ba844910ed63a144a1a3a54f44c6117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Cabinet_initialShadingGroup_MetallicSmoothness.png using Guid(9ba844910ed63a144a1a3a54f44c6117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955989dc76ca9c11ef41ee5a1a0e4871') in 0.015746 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Textures/Cabinet_handleShelf_Normal.png
+  artifactKey: Guid(6ed923d8d7604a444aa8e08bfa00ac10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Cabinet_handleShelf_Normal.png using Guid(6ed923d8d7604a444aa8e08bfa00ac10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d4d842a7aa66450b47a29239bd022f') in 0.011528 seconds 
+Number of asset objects unloaded after import = 2
