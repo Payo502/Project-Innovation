@@ -40,6 +40,8 @@ public class PlayerState : MonoBehaviour
         playerController.strafeSpeed.runningSpeed = SpeedMove;
         playerController.strafeSpeed.sprintSpeed = SpeedPhone;
 
+        //ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, "Arrived");
+
     }
 
     // Update is called once per frame
