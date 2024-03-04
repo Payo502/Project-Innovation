@@ -213,7 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 1541997771}
-  nextSceneName: testlevel1_Art
+  nextScene: 
 --- !u!1 &269358672
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 0}
-  nextSceneName: testlevel1_Art
+  nextScene: 
 --- !u!1 &632197163
 GameObject:
   m_ObjectHideFlags: 0

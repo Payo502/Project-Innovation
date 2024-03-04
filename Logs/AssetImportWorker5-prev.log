@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.30f1 (b4360d7cdac4) revision 11810317'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 65315 MB
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 15775 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Apps\Unity\2021.3.30f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2021.3.30f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker5
 -projectPath
-D:/Saxion Work/3_1 Project Innovation/Project-Innovation
+C:/Users/Theo/Documents/GitHub/Project-Innovation
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-65145
-Successfully changed project path to: D:/Saxion Work/3_1 Project Innovation/Project-Innovation
-D:/Saxion Work/3_1 Project Innovation/Project-Innovation
+53112
+Successfully changed project path to: C:/Users/Theo/Documents/GitHub/Project-Innovation
+C:/Users/Theo/Documents/GitHub/Project-Innovation
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,115 +47,111 @@ D:/Saxion Work/3_1 Project Innovation/Project-Innovation
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [46964] Host "[IP] 145.76.106.9 [Port] 0 [Flags] 2 [Guid] 4228784872 [EditorId] 4228784872 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BCVUE551) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17732] Host "[IP] 145.76.107.77 [Port] 0 [Flags] 2 [Guid] 1746880502 [EditorId] 1746880502 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KESK6IKR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [46964] Host "[IP] 145.76.106.9 [Port] 0 [Flags] 2 [Guid] 4228784872 [EditorId] 4228784872 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-BCVUE551) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17732] Host "[IP] 145.76.107.77 [Port] 0 [Flags] 2 [Guid] 1746880502 [EditorId] 1746880502 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KESK6IKR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 214.62 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.55 ms.
+Refreshing native plugins compatible for Editor in 236.06 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.80 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
-[Subsystems] Discovering subsystems at path D:/Apps/Unity/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Saxion Work/3_1 Project Innovation/Project-Innovation/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Theo/Documents/GitHub/Project-Innovation/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA RTX A3000 Laptop GPU (ID=0x24b8)
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
     Vendor:   NVIDIA
-    VRAM:     6016 MB
-    Driver:   31.0.15.1640
+    VRAM:     3977 MB
+    Driver:   31.0.15.4617
 Initialize mono
-Mono path[0] = 'D:/Apps/Unity/2021.3.30f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Apps/Unity/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Apps/Unity/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Apps/Unity/2021.3.30f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/Apps/Unity/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003514 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017830 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 489 ms
-Refreshing native plugins compatible for Editor in 145.38 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 189.26 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.328 seconds
+- Completed reload, in  1.143 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1329ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1144ms)
+		BeginReloadAssembly (165ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1118ms)
-			LoadAssemblies (110ms)
+		EndReloadAssembly (784ms)
+			LoadAssemblies (159ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			SetupTypeCache (165ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (909ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (479ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (617ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (146ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (84ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
+				RefreshPlugins (190ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014739 seconds.
+Registered in 0.037901 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 136.42 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 226.04 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.088 seconds
+- Completed reload, in  2.777 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2089ms)
-		BeginReloadAssembly (157ms)
+	ReloadAssembly (2778ms)
+		BeginReloadAssembly (217ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1791ms)
-			LoadAssemblies (137ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (2380ms)
+			LoadAssemblies (199ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (409ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (87ms)
-			SetupLoadedEditorAssemblies (1117ms)
+			SetupTypeCache (507ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (109ms)
+			SetupLoadedEditorAssemblies (1514ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (137ms)
-				BeforeProcessingInitializeOnLoad (124ms)
-				ProcessInitializeOnLoadAttributes (731ms)
-				ProcessInitializeOnLoadMethodAttributes (103ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				RefreshPlugins (226ms)
+				BeforeProcessingInitializeOnLoad (229ms)
+				ProcessInitializeOnLoadAttributes (885ms)
+				ProcessInitializeOnLoadMethodAttributes (142ms)
+				AfterProcessingInitializeOnLoad (23ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.91 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 5630 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 140 unused Assets / (0.7 MB). Loaded Objects now: 5999.
-Memory consumption went from 226.7 MB to 226.0 MB.
-Total: 4.886700 ms (FindLiveObjects: 0.567200 ms CreateObjectMapping: 0.320700 ms MarkObjects: 3.595200 ms  DeleteObjects: 0.402200 ms)
+Refreshing native plugins compatible for Editor in 3.51 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 5631 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 140 unused Assets / (0.7 MB). Loaded Objects now: 5994.
+Memory consumption went from 222.2 MB to 221.5 MB.
+Total: 7.462000 ms (FindLiveObjects: 0.929200 ms CreateObjectMapping: 0.610300 ms MarkObjects: 5.258500 ms  DeleteObjects: 0.661900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,9 +167,977 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 442749.175892 seconds.
-  path: Assets/Art/Textures/wall_MaskMap.png
-  artifactKey: Guid(b3faf8bce4194aa4f8b8b4009d553c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 611655.686078 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/invector-icon-dark-gray.mat
+  artifactKey: Guid(1b6bfdfc9f0e5bc46ac46d98dd196e12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Art/Textures/wall_MaskMap.png using Guid(b3faf8bce4194aa4f8b8b4009d553c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbec86925a0950ccfb7648839a53429') in 0.092758 seconds 
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/invector-icon-dark-gray.mat using Guid(1b6bfdfc9f0e5bc46ac46d98dd196e12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0260268716a172c260af1838afbb7b5c') in 0.293861 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Icon/CharacterTemplate.png
+  artifactKey: Guid(4bf53de60edd82845b73148913d56195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterCreator/Icon/CharacterTemplate.png using Guid(4bf53de60edd82845b73148913d56195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf74058fef084a4ccdf870d24a835ff8') in 0.070187 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/blue_floor_Tiled 1.mat
+  artifactKey: Guid(50379933e8dbabe4eb6d36e41aec0185) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/blue_floor_Tiled 1.mat using Guid(50379933e8dbabe4eb6d36e41aec0185) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ac673584d22bc955b5330c3f90757fb') in 0.015284 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/AsyncIO.dll
+  artifactKey: Guid(3db5dd8f91bca63418a53ba929562bc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/AsyncIO.dll using Guid(3db5dd8f91bca63418a53ba929562bc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '826f87f2d93db6ee67b8dc0fb6a6f76b') in 0.013478 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.SynchronizerModel.dll
+  artifactKey: Guid(4a1d60a20f1c2304facc186b4c5bcc83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Meryel.UnityCodeAssist.SynchronizerModel.dll using Guid(4a1d60a20f1c2304facc186b4c5bcc83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7bbd2cc0ab96c902c207ea34ef4d800') in 0.025327 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/Icosphere.asset
+  artifactKey: Guid(b48fb3796b71ffc469dc80482dbd9a4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/Icosphere.asset using Guid(b48fb3796b71ffc469dc80482dbd9a4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2e7d669483feac79fa8e1ae1cbe7fbf') in 0.011713 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/blue_floor_Tiled.mat
+  artifactKey: Guid(b5318195f3001224f8d89ed125cd996b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/Materials/blue_floor_Tiled.mat using Guid(b5318195f3001224f8d89ed125cd996b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60d8f8b1ff026505f33a76f5d276d183') in 0.017850 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/1. Scripts/FMODUtilityPackage/Interfaces/IAudioplayer.cs
+  artifactKey: Guid(04e56e04699e47689ef1e90c332c38c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/1. Scripts/FMODUtilityPackage/Interfaces/IAudioplayer.cs using Guid(04e56e04699e47689ef1e90c332c38c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e37e89b9fedc82ab62fb84afcd604c6') in 0.013099 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50cf5c9c29c2096c2aaa662bb5d46bd9') in 0.100493 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/jumpOver.prefab
+  artifactKey: Guid(bf04e4da3dc9cf44abb84704b3405fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/jumpOver.prefab using Guid(bf04e4da3dc9cf44abb84704b3405fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7df71cff150ac4f4b68f2248b0b70040') in 0.021521 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EditorUtils.cs
+  artifactKey: Guid(2bb4068641d1f71478f95a9b73533f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/src/Editor/EditorUtils.cs using Guid(2bb4068641d1f71478f95a9b73533f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8767581583244710af51ea84e4dc0666') in 0.006565 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs
+  artifactKey: Guid(29a86a77bf7568e499243d9b47b7e88e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/src/Editor/EventRefDrawer.cs using Guid(29a86a77bf7568e499243d9b47b7e88e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ec1274e20e8eb69e73ee065e3618641') in 0.006962 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/FMODEventTrackEditor.cs
+  artifactKey: Guid(31e1c5e7d70e58f45ae86764f7c3ec2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/src/Editor/FMODEventTrackEditor.cs using Guid(31e1c5e7d70e58f45ae86764f7c3ec2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f6fb7af908d66ec008c85f5a7f3df01') in 0.008203 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/ExternalReferences/Serilog.Sinks.PersistentFile.dll
+  artifactKey: Guid(9e32e51adea9a0944bd80e8a6abeb0fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/CodeAssist/Editor/ExternalReferences/Serilog.Sinks.PersistentFile.dll using Guid(9e32e51adea9a0944bd80e8a6abeb0fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f85691206a55745c239a8a11fca4732') in 0.022178 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
+  artifactKey: Guid(6e73605a2ecfd0e4191dd2976bf60af6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset using Guid(6e73605a2ecfd0e4191dd2976bf60af6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05dc8451ed33cc1ccbe4578141eb5bd8') in 0.025299 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/Input/InputManagerMonitor.cs
+  artifactKey: Guid(93fa4b62a619d46468290024073c9d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/CodeAssist/Editor/Input/InputManagerMonitor.cs using Guid(93fa4b62a619d46468290024073c9d48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b1069c2cacc924e0b038c49f7d803b1') in 0.007229 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/TinyJson/JsonWriter.cs
+  artifactKey: Guid(7bccb3e5d00eb014584d6b2f762f8723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/CodeAssist/Editor/TinyJson/JsonWriter.cs using Guid(7bccb3e5d00eb014584d6b2f762f8723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d4d722b61bdb1242ba4cd3c4cf2dd8c') in 0.007964 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/EditorSettings.cs
+  artifactKey: Guid(3c9e3e2137498d343a2e31906a12dec2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/src/Editor/EditorSettings.cs using Guid(3c9e3e2137498d343a2e31906a12dec2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '657f3570b9ff20db2ae22eed74179ba4') in 0.008454 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/Logger/ELogger.cs
+  artifactKey: Guid(83769607afcb9324ea76b5ee2fdd81d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/CodeAssist/Editor/Logger/ELogger.cs using Guid(83769607afcb9324ea76b5ee2fdd81d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdb287194705eeb056f9bee8ab47c302') in 0.007714 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs
+  artifactKey: Guid(40a1ca322d08d704eacd449863718b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/src/Editor/BankRefreshWindow.cs using Guid(40a1ca322d08d704eacd449863718b31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd546b4c1350b79e4fcaf960b820fe18a') in 0.008193 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/CodeAssist/Editor/Input/UnityInputManager.cs
+  artifactKey: Guid(e95bd9091051ca64bb71c973578bf5d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/CodeAssist/Editor/Input/UnityInputManager.cs using Guid(e95bd9091051ca64bb71c973578bf5d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'beabeb72fa976abc52c9fd4d73dd80fc') in 0.008050 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/FMOD/images/Preview.png
+  artifactKey: Guid(0793eda432fc5df4ab1291e6baacd771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/images/Preview.png using Guid(0793eda432fc5df4ab1291e6baacd771) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '996cdf81c05c35b1123756258b097041') in 0.031847 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/FMOD/images/FMODLogoBlack.png
+  artifactKey: Guid(36e46b3c334e47e41a0b4ff2f26905ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/images/FMODLogoBlack.png using Guid(36e46b3c334e47e41a0b4ff2f26905ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5da50cc9b1ff29590cae4d802366fc6') in 0.040028 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/piece.prefab
+  artifactKey: Guid(782d52d115c7ce84ab933bf328e854b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/piece.prefab using Guid(782d52d115c7ce84ab933bf328e854b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c40bb86152d9377c2dcfcd7c2983e0c') in 0.012397 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Guard stuff/Animations/Pistol Walk (1).fbx
+  artifactKey: Guid(6fbead280ac53034fa4a504a2f6a8c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Guard stuff/Animations/Pistol Walk (1).fbx using Guid(6fbead280ac53034fa4a504a2f6a8c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f60ea9ba1904f07d466bdad664cf8d5') in 0.051120 seconds 
+Number of asset objects unloaded after import = 124
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/vAnimateUV.cs
+  artifactKey: Guid(e9ccff300e5a8e6499d592844b2499d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/HealthItem/vAnimateUV.cs using Guid(e9ccff300e5a8e6499d592844b2499d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7397a15f4e1746ece0e7af13b312fbf') in 0.024828 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/locomotion_statuePlate_OCC2.png
+  artifactKey: Guid(c0dc1d586d3eb134583639343a494d3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/locomotion_statuePlate_OCC2.png using Guid(c0dc1d586d3eb134583639343a494d3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebcbcc8055d81b869bba5ae241850b75') in 0.029358 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/StreamingAssets/Master.strings.bank
+  artifactKey: Guid(fbff385af086b4d49a3cf2e9358dbcdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/StreamingAssets/Master.strings.bank using Guid(fbff385af086b4d49a3cf2e9358dbcdd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8baf05e36b375116f815b447063ebcc3') in 0.006856 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/CodeGeneration.cs
+  artifactKey: Guid(438155f6a2d689e45b5cc7701d412b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/src/Editor/CodeGeneration.cs using Guid(438155f6a2d689e45b5cc7701d412b80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e4ada0fb2de98e2501e70dd6491972c') in 0.008631 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioManager.cs
+  artifactKey: Guid(b11066ff95bbf3344b868394742f7002) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioManager.cs using Guid(b11066ff95bbf3344b868394742f7002) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '00a9ea58bbae3ca77818bd001f8f9418') in 0.009024 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudio.cs
+  artifactKey: Guid(faab0996f33b3304faccb7f9f8c48dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudio.cs using Guid(faab0996f33b3304faccb7f9f8c48dc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37f7353dc301d3cc3d3beabf8c5cad16') in 0.008100 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/SteamAudio/Resources/Materials/Default.asset
+  artifactKey: Guid(a086f686223eed942816c70be67841b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Resources/Materials/Default.asset using Guid(a086f686223eed942816c70be67841b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dead9459c886f244c9b106593da45986') in 0.015033 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Editor/SteamAudioMaterialInspector.cs
+  artifactKey: Guid(d390cf1bb6f67ca47b6b5d3c43ec5956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Editor/SteamAudioMaterialInspector.cs using Guid(d390cf1bb6f67ca47b6b5d3c43ec5956) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '509774bd4c592bd596c4c78e78cc5c70') in 0.009169 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Editor/SOFAFileImporter.cs
+  artifactKey: Guid(1731f5ddf70efee4c8320ac591373b56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Editor/SOFAFileImporter.cs using Guid(1731f5ddf70efee4c8320ac591373b56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f59d5ed03bb0c4e56ad2bc128b247fd8') in 0.008893 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Runtime/Simulator.cs
+  artifactKey: Guid(59c8ab9b6583fd541bae96e7d56ad808) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/Simulator.cs using Guid(59c8ab9b6583fd541bae96e7d56ad808) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '419ff853a82d7e2e2bda28331ecd3fc1') in 0.008460 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/SteamAudio/Resources/Materials/Rock.asset
+  artifactKey: Guid(5c0320d65bcecce4abf2efe02ff313aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Resources/Materials/Rock.asset using Guid(5c0320d65bcecce4abf2efe02ff313aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e41f3e110b8d084d0e05bcfe8625aab') in 0.008889 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Runtime/SerializedData.cs
+  artifactKey: Guid(3a82078fb50fbcb46a7e4402721b1a31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/SerializedData.cs using Guid(3a82078fb50fbcb46a7e4402721b1a31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5173bdbabd1c5bd9c86ff039659df1b6') in 0.007574 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Editor/SOFAFileEditor.cs
+  artifactKey: Guid(ad7854f3d94e96f4795542d446b68921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Editor/SOFAFileEditor.cs using Guid(ad7854f3d94e96f4795542d446b68921) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd387c5a025e563c37413c63f7f825f71') in 0.007175 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Runtime/Context.cs
+  artifactKey: Guid(19c99b97347775a4d901f873fee55e3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/Context.cs using Guid(19c99b97347775a4d901f873fee55e3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70d562f661a4e64b66530fe2aa6734b8') in 0.007376 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs
+  artifactKey: Guid(dc94d213814ef1a42b0ca8ee00dd4728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/src/Editor/StudioParameterTriggerEditor.cs using Guid(dc94d213814ef1a42b0ca8ee00dd4728) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a111cbd51ac686bee976ecd81f81c07a') in 0.007768 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Runtime/RadeonRaysDevice.cs
+  artifactKey: Guid(ab45c0e4ff6a2c445843d2133d90ce2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/RadeonRaysDevice.cs using Guid(ab45c0e4ff6a2c445843d2133d90ce2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ca8cce9cc2169a3d00522fe843f5879') in 0.008947 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Plugins/SteamAudio/Resources/Materials/Gravel.asset
+  artifactKey: Guid(b1c2b85c159e39042b3aa49340f34357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Resources/Materials/Gravel.asset using Guid(b1c2b85c159e39042b3aa49340f34357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a700ee8efec6c579e3e8027ca6c36094') in 0.008541 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Runtime/UnityAudioEngineAmbisonicSource.cs
+  artifactKey: Guid(c6e7b360f01d93347b477af15e75be7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/UnityAudioEngineAmbisonicSource.cs using Guid(c6e7b360f01d93347b477af15e75be7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b93f99551bb6b7b7e07ab1ba89d6cd29') in 0.007612 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Editor/SteamAudioProbeBatchInspector.cs
+  artifactKey: Guid(db54b1d0b8cefcf4486eccd5e7c185f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Editor/SteamAudioProbeBatchInspector.cs using Guid(db54b1d0b8cefcf4486eccd5e7c185f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f00c006d5cf319710a34d75c216b7ca') in 0.007897 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Runtime/AudioEngineAmbisonicSource.cs
+  artifactKey: Guid(bf3a8878920e660448a9f5dd6ff8589f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/AudioEngineAmbisonicSource.cs using Guid(bf3a8878920e660448a9f5dd6ff8589f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c6ed0332b270841b3ad860556059515') in 0.008559 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/SteamAudio/Resources/Materials/Glass.asset
+  artifactKey: Guid(08bf73ad12cb44944875b02ce7f9d694) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Resources/Materials/Glass.asset using Guid(08bf73ad12cb44944875b02ce7f9d694) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'deabb4144046a0da59a748f239e79cbe') in 0.007978 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioAmbisonicSource.cs
+  artifactKey: Guid(fe05866fd4e732246be6461a576ebcb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioAmbisonicSource.cs using Guid(fe05866fd4e732246be6461a576ebcb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4028a99640e5fd7449ae207e7219c408') in 0.007476 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioStaticMesh.cs
+  artifactKey: Guid(8173b2a8dbe2d2d48995bb2ba9a49ff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Scripts/Runtime/SteamAudioStaticMesh.cs using Guid(8173b2a8dbe2d2d48995bb2ba9a49ff1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70ebcc28ca052295ff519f1c7a5bbd6a') in 0.007801 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/Textures/Chair_Fabric_Height.png
+  artifactKey: Guid(ddb2993130d431445b4c9cd4377f088e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Textures/Chair_Fabric_Height.png using Guid(ddb2993130d431445b4c9cd4377f088e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac262ad540be49834213cb5f486d51f3') in 0.031397 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/_stairs.prefab
+  artifactKey: Guid(e5e911e47916cfc439e4036756e48bf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/_stairs.prefab using Guid(e5e911e47916cfc439e4036756e48bf1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9f6ff22eb06233fbb4eea9e41350ff2') in 0.014791 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/1. Scripts/FMODUtilityPackage/Structs/BusPathPerBus.cs
+  artifactKey: Guid(10586e0217244261bed6bc48a31b1722) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/1. Scripts/FMODUtilityPackage/Structs/BusPathPerBus.cs using Guid(10586e0217244261bed6bc48a31b1722) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98ecd94f5a243cdc43bf9d338e465f92') in 0.008573 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/Assets/VolumetricTexture.png
+  artifactKey: Guid(4be7fa10045e3db498787c8df3b9f6de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Assets/VolumetricTexture.png using Guid(4be7fa10045e3db498787c8df3b9f6de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd5cf46152f785c11de4d3b9a5a682a1') in 0.050188 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/MeleeBanner.mat
+  artifactKey: Guid(264d21211bf46b745ad017bc8538a2a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/MeleeBanner.mat using Guid(264d21211bf46b745ad017bc8538a2a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd09ec8a71be2b7b291a3f3b3de15898c') in 0.013285 seconds 
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/greenEmit.mat
+  artifactKey: Guid(57a4ec3e493b1cb4c8a8a16b70a5c441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/greenEmit.mat using Guid(57a4ec3e493b1cb4c8a8a16b70a5c441) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2cc65df9e951c3f7402cb2accc8ea1a') in 0.011238 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sound design/FmodProject/Build/Desktop/Master.bank
+  artifactKey: Guid(8e1f4e773a8a19c4289b2579a3c0f033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sound design/FmodProject/Build/Desktop/Master.bank using Guid(8e1f4e773a8a19c4289b2579a3c0f033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de53166b01d7b12ba8db3c305711b3ee') in 0.007419 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/grass.png
+  artifactKey: Guid(ec68c6550c3dbf6418336e2c9af563fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/grass.png using Guid(ec68c6550c3dbf6418336e2c9af563fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a92df6a4c1747ac8d2cca93934e1f62') in 0.035015 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/1. Scripts/FMODUtilityPackage/Audioplayers/UnityFunctionHandlers/AudioPlayerFunctionHandlerExtras/AudioStopperFunctionHandler.cs
+  artifactKey: Guid(9d30a266f5494695a82b3bf72b366c91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/1. Scripts/FMODUtilityPackage/Audioplayers/UnityFunctionHandlers/AudioPlayerFunctionHandlerExtras/AudioStopperFunctionHandler.cs using Guid(9d30a266f5494695a82b3bf72b366c91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aec097038b30da20a73b0cfbdf30f628') in 0.008870 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/proto_gray 1.mat
+  artifactKey: Guid(ff92470e0763be545a40824b20f60195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/proto_gray 1.mat using Guid(ff92470e0763be545a40824b20f60195) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79aa6bd7d8e1ef9a6cf6e674a9856f18') in 0.014852 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sound design/FmodProject/Metadata/AudioFile/{881ed7e6-c8a5-483a-8ec4-321c3fc467bf}.xml
+  artifactKey: Guid(33a823e9bbf07be4c8de6f5cbb1a6cc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sound design/FmodProject/Metadata/AudioFile/{881ed7e6-c8a5-483a-8ec4-321c3fc467bf}.xml using Guid(33a823e9bbf07be4c8de6f5cbb1a6cc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae07cf13d5d2f06df6ab8aff612b461b') in 0.011680 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/1. Scripts/FMODUtilityPackage/Audioplayers/UnityFunctionHandlers/EmitterHandlers/EmitterPlayerFunctionHandler.cs
+  artifactKey: Guid(8b43bac1a82e4b1da489dd7572c71c4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/1. Scripts/FMODUtilityPackage/Audioplayers/UnityFunctionHandlers/EmitterHandlers/EmitterPlayerFunctionHandler.cs using Guid(8b43bac1a82e4b1da489dd7572c71c4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2910d0b6961c7d7227d72b3bc1d9f0b') in 0.007716 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/vspike-old.mat
+  artifactKey: Guid(bf247d6bf1713bf41bfd977927332cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/vspike-old.mat using Guid(bf247d6bf1713bf41bfd977927332cd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '216478f1b252a6f0b293f2d86b015b32') in 0.015643 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/FBX/VBOT_LOD.fbx
+  artifactKey: Guid(340f99b8334a14c4a8a01dce6e1e5348) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/FBX/VBOT_LOD.fbx using Guid(340f99b8334a14c4a8a01dce6e1e5348) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b12741abc8f80c226a10b26299e8b654') in 0.095777 seconds 
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sound design/FmodProject/Metadata/AudioFile/{4a1629b9-c989-45b3-bb8c-0cf570010b69}.xml
+  artifactKey: Guid(2d23a63f40008994e85b9a5180c09641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sound design/FmodProject/Metadata/AudioFile/{4a1629b9-c989-45b3-bb8c-0cf570010b69}.xml using Guid(2d23a63f40008994e85b9a5180c09641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c952d346157715a2a379020c064f29a7') in 0.007669 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/metal.jpg
+  artifactKey: Guid(aa2e29011c31245428ec0bdfd26e8d80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/metal.jpg using Guid(aa2e29011c31245428ec0bdfd26e8d80) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '786681068e7ed731c7fbb084c041cdde') in 0.030145 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/ShooterBanner.mat
+  artifactKey: Guid(74b0fc2152b5dea4187dcad2f990f4c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/ShooterBanner.mat using Guid(74b0fc2152b5dea4187dcad2f990f4c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48a15f40260645729f4adf48b1bd15d5') in 0.028238 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/deadgrass_NRM.png
+  artifactKey: Guid(958e6b9b36f25354db99deafd3eaaaa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/deadgrass_NRM.png using Guid(958e6b9b36f25354db99deafd3eaaaa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5e9735b5232a61c971402888c823e46') in 0.028895 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/1. Scripts/FMODUtilityPackage/Audioplayers/UnityFunctionHandlers/AudioPlayerFunctionHandlerExtras/AudioParametersFunctionHandler.cs
+  artifactKey: Guid(516f1e746bb54d59b6f99b083bca41cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/1. Scripts/FMODUtilityPackage/Audioplayers/UnityFunctionHandlers/AudioPlayerFunctionHandlerExtras/AudioParametersFunctionHandler.cs using Guid(516f1e746bb54d59b6f99b083bca41cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f456afe83f8ddf702eb5980ea582f334') in 0.008007 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Sound design/FmodProject/Metadata/EventFolder/{578dbc72-d859-49ac-b8ac-dea8bc7e0857}.xml
+  artifactKey: Guid(22b7ee87dd403bf4fba4dd90b040b407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sound design/FmodProject/Metadata/EventFolder/{578dbc72-d859-49ac-b8ac-dea8bc7e0857}.xml using Guid(22b7ee87dd403bf4fba4dd90b040b407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3fe71627c79d1b0280b6d1b788ceff6e') in 0.008321 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/Editor/Resources/vEditorStartupPrefs.asset
+  artifactKey: Guid(1c9f2caa0db14374aaaabef8a5c88ce5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/Editor/Resources/vEditorStartupPrefs.asset using Guid(1c9f2caa0db14374aaaabef8a5c88ce5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42bb143c3afbea407d8cff3137ccfdde') in 0.010955 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/Editor/Resources/vEditorStartupPrefs.cs
+  artifactKey: Guid(2f22f37f63bcec14080b11ce5e381ce6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/Scripts/CharacterController/Editor/Resources/vEditorStartupPrefs.cs using Guid(2f22f37f63bcec14080b11ce5e381ce6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dca3b0d514c2836c09145706c9b1bacd') in 0.008488 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Textures/Custom/Metallic_members.png
+  artifactKey: Guid(d5f3783820d30304d8ac63693db17fbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Textures/Custom/Metallic_members.png using Guid(d5f3783820d30304d8ac63693db17fbc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e367d3025e8d8a092614102714203a6e') in 0.035184 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Body.mat
+  artifactKey: Guid(2fccb76f588d4d749928713d38489484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Body.mat using Guid(2fccb76f588d4d749928713d38489484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e05cc4c0f9425601384e94054bdf15b') in 0.038313 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Members_Metal.mat
+  artifactKey: Guid(c90f59755f1461b4483f9f225b77813c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Members_Metal.mat using Guid(c90f59755f1461b4483f9f225b77813c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6e5b54ee8ce506279c37950175bfd58') in 0.020354 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs
+  artifactKey: Guid(935c6716e27bd481e97897dd9e1de595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/addons/ResonanceAudio/Editor/FmodResonanceAudioRoomEditor.cs using Guid(935c6716e27bd481e97897dd9e1de595) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27f40b62af1c7464a62dfdb19cd4de7e') in 0.007518 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/SteamAudio/Binaries/Android/arm64/libphonon.so
+  artifactKey: Guid(32c74da812273c841a7c6f7adc2cda8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Binaries/Android/arm64/libphonon.so using Guid(32c74da812273c841a7c6f7adc2cda8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9ef42848cfb08b888199a9250020ef8') in 0.011175 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Textures/Custom/Normal_body.png
+  artifactKey: Guid(2a0eccb177040f8499cd6b9b93c1b142) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Textures/Custom/Normal_body.png using Guid(2a0eccb177040f8499cd6b9b93c1b142) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97a39e78c379f87d49f54cb6f111a9a5') in 0.035792 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Members_Plastic.mat
+  artifactKey: Guid(4a9aabb04c2af0e42a67b624135c49e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Material/Custom/Members_Plastic.mat using Guid(4a9aabb04c2af0e42a67b624135c49e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e99cda7ccc92ec509a1479958f3b456c') in 0.018440 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Textures/Custom/Normal_members.png
+  artifactKey: Guid(72ffac59ccc778e4ab9223eeac6b2e39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Characters/Invector@V-Bot 2.0/Textures/Custom/Normal_members.png using Guid(72ffac59ccc778e4ab9223eeac6b2e39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28ccd9c503a76c219c39891b652d1fca') in 0.036547 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/vgrenades.png
+  artifactKey: Guid(176181e324234e74bb7103136cc5cadc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Textures/vgrenades.png using Guid(176181e324234e74bb7103136cc5cadc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '959cc604ebb7cd34fefc471c08d1b05a') in 0.028891 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/SteamAudio/Binaries/Windows/x86_64/phonon.dll
+  artifactKey: Guid(01f204cdd3aa0d449bff1ab94d059ce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Binaries/Windows/x86_64/phonon.dll using Guid(01f204cdd3aa0d449bff1ab94d059ce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e5fd7d69d6e2ce149292cd2eb51abc8') in 0.013384 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/fmod.jar
+  artifactKey: Guid(cba124c31f7e10640bc2ff9464f8ac15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/android/lib/fmod.jar using Guid(cba124c31f7e10640bc2ff9464f8ac15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa4c078ab5f4a5eb13557cdd8a126d2f') in 0.025728 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Plugins/SteamAudio/Binaries/Linux/x86_64/libphonon.so
+  artifactKey: Guid(c9ba4a34d9f98f045ac750ca5a13cc0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Binaries/Linux/x86_64/libphonon.so using Guid(c9ba4a34d9f98f045ac750ca5a13cc0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2098650b58d2669d929c9cb26ddba38') in 0.011948 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounityplugin.a
+  artifactKey: Guid(4abc247d0f34143ec95396c7b6bec6a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/tvos/lib/libfmodstudiounityplugin.a using Guid(4abc247d0f34143ec95396c7b6bec6a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '453d00c35e8b5a8c08101628ed82b452') in 0.010817 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Plugins/SteamAudio/Binaries/Linux/x86/libaudioplugin_phonon.so
+  artifactKey: Guid(2bcf76b2e4398cb49b45812674a7ec17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/SteamAudio/Binaries/Linux/x86/libaudioplugin_phonon.so using Guid(2bcf76b2e4398cb49b45812674a7ec17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c9eb867b0fb7a197f23753a713090e1') in 0.012496 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/FMODUtilityPackage/EventPaths.cs
+  artifactKey: Guid(96b214af69e147548d2e0038e2a3e8e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Resources/FMODUtilityPackage/EventPaths.cs using Guid(96b214af69e147548d2e0038e2a3e8e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a207b662be092a1be61c375f06737ba5') in 0.008090 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudioL.dll
+  artifactKey: Guid(5476dd86ee3260f4bb2283aef1d9a883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodstudioL.dll using Guid(5476dd86ee3260f4bb2283aef1d9a883) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8916a858f5f2f14a7232b9077f07aa22') in 0.013552 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmod.so
+  artifactKey: Guid(7b1a5b0e7617bcf49885fb2dd09d7085) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmod.so using Guid(7b1a5b0e7617bcf49885fb2dd09d7085) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c02ee6c285585d4c4aeffa44dcbc259') in 0.008734 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudio.dll
+  artifactKey: Guid(684d4d47a018ed14080e15f4c99b8e86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudio.dll using Guid(684d4d47a018ed14080e15f4c99b8e86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '377ccc6514aaa5fe867cc94f5f06d506') in 0.012919 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudioL.so
+  artifactKey: Guid(9a5fc9953c8c261488bf0cb6c202e04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/android/lib/x86_64/libfmodstudioL.so using Guid(9a5fc9953c8c261488bf0cb6c202e04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae149e1ae7b26ce0d0e8a13ced8bc8cf') in 0.008994 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Plugins/FMOD/platforms/win/lib/x86_64/resonanceaudio.dll
+  artifactKey: Guid(4c8fb9b92ea2eae4f9112a3941c4f128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/win/lib/x86_64/resonanceaudio.dll using Guid(4c8fb9b92ea2eae4f9112a3941c4f128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0a8262f356020c528da4470e0b60d62') in 0.010372 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudio.a
+  artifactKey: Guid(18569240b868e8b44a20d32b2df12f5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/html5/lib/2.0.19/libfmodstudio.a using Guid(18569240b868e8b44a20d32b2df12f5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edbc083d2201339c9045e4b825fa182c') in 0.025136 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudio.so
+  artifactKey: Guid(cf01ad74bd6e5df46996c61b81ba590c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/android/lib/armeabi-v7a/libfmodstudio.so using Guid(cf01ad74bd6e5df46996c61b81ba590c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e256672d10f2484b58e98f064c29a40') in 0.010800 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libphonon_fmod.so
+  artifactKey: Guid(0b5b7bea62ea6294db94b4248f16efc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libphonon_fmod.so using Guid(0b5b7bea62ea6294db94b4248f16efc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c756388e34f53f69f6a50e0c6dced138') in 0.013083 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulator.a
+  artifactKey: Guid(26235204f425d41479c8e41c99e96f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/ios/lib/libfmodstudiounitypluginsimulator.a using Guid(26235204f425d41479c8e41c99e96f50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '041b1ac575487731b55f7e978516523b') in 0.014132 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudioL.so
+  artifactKey: Guid(85af50ee41bfd9c4fbd8107aee814c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudioL.so using Guid(85af50ee41bfd9c4fbd8107aee814c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05fc88280f3f51bdcc3ab46d642f3711') in 0.007288 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/x86/libfmod.so
+  artifactKey: Guid(099e80baee62d0c439475fae45e69f4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/android/lib/x86/libfmod.so using Guid(099e80baee62d0c439475fae45e69f4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec00230be7cedca575d5424de1a559b0') in 0.008358 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmod.dll
+  artifactKey: Guid(907f4331811d73442b58d50627a775d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmod.dll using Guid(907f4331811d73442b58d50627a775d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea9c3deec56cca588912379a63c8adf2') in 0.011395 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodL.dll
+  artifactKey: Guid(82bacb4b0f3cc85418d2a1aa2ca57df6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/uwp/lib/arm/fmodL.dll using Guid(82bacb4b0f3cc85418d2a1aa2ca57df6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bd132db877a965e461d77023759b514') in 0.012760 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudioL.dll
+  artifactKey: Guid(448b2a5a279a79345a5fa6256353e06c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/win/lib/x86_64/fmodstudioL.dll using Guid(448b2a5a279a79345a5fa6256353e06c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e0c5b4fa1cb51977d5af0d263813b0e') in 0.010417 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sound design/FmodProject/Metadata/Bank/{778315ae-73b6-486a-8d3d-ec00f263ac4f}.xml
+  artifactKey: Guid(5d8967c43e69fcb46ad0afc54566033f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sound design/FmodProject/Metadata/Bank/{778315ae-73b6-486a-8d3d-ec00f263ac4f}.xml using Guid(5d8967c43e69fcb46ad0afc54566033f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c70778cc14e45e1124c67401e008d2a') in 0.008847 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudio.so
+  artifactKey: Guid(e4d6c68823f34e440bfe4e4ecba4c113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/platforms/android/lib/arm64-v8a/libfmodstudio.so using Guid(e4d6c68823f34e440bfe4e4ecba4c113) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1252538f5c068cbaa299618da5b3c12') in 0.009780 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/proto_green.mat
+  artifactKey: Guid(404138e866b65de4e978510443a8d0c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/prototype_textures/Materials/proto_green.mat using Guid(404138e866b65de4e978510443a8d0c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e75a037fc6360b3663dd7bac025a29e5') in 0.012406 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sound design/FmodProject/Metadata/ParameterPreset/{08327c41-7580-4d20-a059-670b15423ff6}.xml
+  artifactKey: Guid(2afac24f2de11b845987c7809b05c635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sound design/FmodProject/Metadata/ParameterPreset/{08327c41-7580-4d20-a059-670b15423ff6}.xml using Guid(2afac24f2de11b845987c7809b05c635) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbd7007ad8c9845d54f9c531c31e7044') in 0.007112 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs
+  artifactKey: Guid(6b0c5e63920ee4f55b7ec5248525af4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Plugins/FMOD/addons/ResonanceAudio/Scripts/FmodResonanceAudioRoom.cs using Guid(6b0c5e63920ee4f55b7ec5248525af4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bb3599211a94e86a81d829ea450b71c') in 0.008175 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sound design/FmodProject/Metadata/AudioFile/{6ba006e0-2590-476f-850a-c3a4e4e023d8}.xml
+  artifactKey: Guid(2bd3542f800fa5244bf5d773105a5047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sound design/FmodProject/Metadata/AudioFile/{6ba006e0-2590-476f-850a-c3a4e4e023d8}.xml using Guid(2bd3542f800fa5244bf5d773105a5047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bdc35a1a83bebfec757101556f76b54') in 0.007968 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/redEmit.mat
+  artifactKey: Guid(40155e0859f556244814886122855c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Textures/basicTextures/Materials/redEmit.mat using Guid(40155e0859f556244814886122855c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6435acc9de033ebb6b459cc8667b92d4') in 0.008760 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/1. Scripts/FMODUtilityPackage/ExtentionMethods/EventInstanceExtensions.cs
+  artifactKey: Guid(753557a59cb048b3b9e53bfaee21b05c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/1. Scripts/FMODUtilityPackage/ExtentionMethods/EventInstanceExtensions.cs using Guid(753557a59cb048b3b9e53bfaee21b05c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '506334d723597538662df7d029b7a504') in 0.007090 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Assets/FakeVolumetric.fbx
+  artifactKey: Guid(ce5f89f749c5b2846a83595e8cb07c02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Assets/FakeVolumetric.fbx using Guid(ce5f89f749c5b2846a83595e8cb07c02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9a91e56f05c8139966350b1962dfc9c') in 0.020708 seconds 
+Number of asset objects unloaded after import = 7
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
