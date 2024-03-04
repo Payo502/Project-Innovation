@@ -15,7 +15,7 @@ C:/Users/Theo/Documents/GitHub/Project-Innovation
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50413
+56931
 Successfully changed project path to: C:/Users/Theo/Documents/GitHub/Project-Innovation
 C:/Users/Theo/Documents/GitHub/Project-Innovation
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,13 +47,13 @@ C:/Users/Theo/Documents/GitHub/Project-Innovation
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [28276] Host "[IP] 145.76.107.77 [Port] 0 [Flags] 2 [Guid] 440413461 [EditorId] 440413461 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KESK6IKR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [17736] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 3680486390 [EditorId] 3680486390 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KESK6IKR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [28276] Host "[IP] 145.76.107.77 [Port] 0 [Flags] 2 [Guid] 440413461 [EditorId] 440413461 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KESK6IKR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17736] Host "[IP] 192.168.0.105 [Port] 0 [Flags] 2 [Guid] 3680486390 [EditorId] 3680486390 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KESK6IKR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 158.98 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.49 ms.
+Refreshing native plugins compatible for Editor in 137.60 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.50 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Theo/Documents/GitHub/Project-Innovation/Assets
@@ -68,77 +68,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010581 seconds.
+Registered in 0.010167 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 117.65 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 121.54 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.722 seconds
+- Completed reload, in  0.746 seconds
 Domain Reload Profiling:
-	ReloadAssembly (722ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (747ms)
+		BeginReloadAssembly (126ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (496ms)
-			LoadAssemblies (106ms)
+		EndReloadAssembly (510ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (99ms)
+			SetupTypeCache (98ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (315ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (333ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (118ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (122ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (152ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.028501 seconds.
+Registered in 0.026441 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 135.04 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 128.16 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.12 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  2.006 seconds
+- Completed reload, in  2.045 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2007ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (2047ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1731ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1772ms)
 			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
+			SetupTypeCache (303ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (1168ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1198ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (135ms)
-				BeforeProcessingInitializeOnLoad (159ms)
-				ProcessInitializeOnLoadAttributes (742ms)
-				ProcessInitializeOnLoadMethodAttributes (109ms)
-				AfterProcessingInitializeOnLoad (17ms)
+				RefreshPlugins (128ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (775ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
@@ -146,87 +146,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.79 ms, found 11 plugins.
+Refreshing native plugins compatible for Editor in 1.84 ms, found 11 plugins.
 Preloading 1 native plugins for Editor in 0.11 ms.
 Unloading 5629 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 140 unused Assets / (0.7 MB). Loaded Objects now: 5992.
-Memory consumption went from 222.0 MB to 221.3 MB.
-Total: 6.155000 ms (FindLiveObjects: 0.504900 ms CreateObjectMapping: 0.205900 ms MarkObjects: 4.999900 ms  DeleteObjects: 0.443000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 353256.420496 seconds.
-  path: Assets/Art/Assets/Posters/StartScreen.jpg
-  artifactKey: Guid(c900a76fff166674f925f63ed5175916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Art/Assets/Posters/StartScreen.jpg using Guid(c900a76fff166674f925f63ed5175916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac6724d7ce98deefa14e76b98f25980') in 0.592788 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Art/Videos/CutScene.wav
-  artifactKey: Guid(e7e5955ef23a70b4e96530088bae8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Art/Videos/CutScene.wav using Guid(e7e5955ef23a70b4e96530088bae8313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b214d6f799cf4595668fe87f304be3') in 0.070635 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Art/Textures/Monitors_Screen_Emissive.png
-  artifactKey: Guid(69e28fc238d14f64481346ed74f0d128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Art/Textures/Monitors_Screen_Emissive.png using Guid(69e28fc238d14f64481346ed74f0d128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ef8cf0676ef6eb60e66318b4e2c3e6') in 0.045714 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Plugins/FMOD/images/DiscreteParameterIcon.png
-  artifactKey: Guid(509563e7079a6ed4cbf3b3240327e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Plugins/FMOD/images/DiscreteParameterIcon.png using Guid(509563e7079a6ed4cbf3b3240327e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6dff5dca29c6a4b16952f85d6a422c1') in 0.036131 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/gameObjects/Gamescreen.prefab
-  artifactKey: Guid(e97c50261bce0d74eb554188d1d5d8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/gameObjects/Gamescreen.prefab using Guid(e97c50261bce0d74eb554188d1d5d8f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfd10b40e18d87ebb7ea1d4693b6629') in 0.431149 seconds 
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Invector-3rdPersonController_LITE/Prefabs/GameOver Screen.prefab
-  artifactKey: Guid(a9954d0b3906f16489ae601605ba70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Invector-3rdPersonController_LITE/Prefabs/GameOver Screen.prefab using Guid(a9954d0b3906f16489ae601605ba70da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5837d6712087aeeb54656aabec95a257') in 0.086786 seconds 
-Number of asset objects unloaded after import = 41
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/materials/lit screen.mat
-  artifactKey: Guid(a3f1b7b8c00defb4d9b10b6cff96055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/materials/lit screen.mat using Guid(a3f1b7b8c00defb4d9b10b6cff96055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c481fdd7f5c334e0e979b55f2699b6') in 0.060906 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 43.54 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 125 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 146 unused Assets / (0.7 MB). Loaded Objects now: 6134.
-Memory consumption went from 110.8 MB to 110.1 MB.
-Total: 5.055000 ms (FindLiveObjects: 0.443500 ms CreateObjectMapping: 0.381600 ms MarkObjects: 3.828000 ms  DeleteObjects: 0.401200 ms)
+Memory consumption went from 222.1 MB to 221.4 MB.
+Total: 4.583500 ms (FindLiveObjects: 0.565300 ms CreateObjectMapping: 0.281300 ms MarkObjects: 3.298100 ms  DeleteObjects: 0.438000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -240,6 +165,78 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 375651.033603 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Resources/Wall-nm.png
+  artifactKey: Guid(64994417190443b499dde34cd05b52bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/Resources/Wall-nm.png using Guid(64994417190443b499dde34cd05b52bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '202ba28cf84c898a72b966a387f4cad3') in 0.121614 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Resources/Wall-albedo_v2.png
+  artifactKey: Guid(ca66c997d9520d14c8ef74f465b47755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/Resources/Wall-albedo_v2.png using Guid(ca66c997d9520d14c8ef74f465b47755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd089e6f39815d32585a96083ff03a21') in 0.021810 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_big.asset
+  artifactKey: Guid(fbc9f22f2895240469c96e194195651d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_big.asset using Guid(fbc9f22f2895240469c96e194195651d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94c13c86f28f94cc625c231b1121e9e') in 0.052953 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_small.prefab
+  artifactKey: Guid(57f0e397c511a91489dcee01605a2aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_small.prefab using Guid(57f0e397c511a91489dcee01605a2aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3365267c62b531165de11ec1f6f343') in 0.189464 seconds 
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_big.prefab
+  artifactKey: Guid(5f5d488710276db4c9dcf0bff9769b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_big.prefab using Guid(5f5d488710276db4c9dcf0bff9769b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ff59782ba271a7cb13550b69f7baeb') in 0.021456 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Resources/Wall-albedo.png
+  artifactKey: Guid(6b253d2d60722be49939ca3b469bea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/Resources/Wall-albedo.png using Guid(6b253d2d60722be49939ca3b469bea92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4038361f33107fc3198e81962e5279ae') in 0.021166 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/Assets/Environment/Wall.obj
+  artifactKey: Guid(d2a622d93e7f31c4499e911360c25b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Art/Assets/Environment/Wall.obj using Guid(d2a622d93e7f31c4499e911360c25b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6af2d25c7106cbbe9c6e0bbe36a32f94') in 0.048630 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/Resources/Wall-occ_fully.png
+  artifactKey: Guid(56b7a2fbd53aad443ba0c276ded969cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/Resources/Wall-occ_fully.png using Guid(56b7a2fbd53aad443ba0c276ded969cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29136def52bba1325edd07129e89338f') in 0.017951 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_small.asset
+  artifactKey: Guid(1f415c2a0f81b57488cd28fa7561a2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Invector-3rdPersonController_LITE/3D Models/Others/NewAssets/wall_small.asset using Guid(1f415c2a0f81b57488cd28fa7561a2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e717978602e2b0d8585140f052d5882') in 0.007627 seconds 
+Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
