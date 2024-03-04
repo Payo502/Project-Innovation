@@ -40,6 +40,7 @@ public class PlayerState : MonoBehaviour
         playerController.strafeSpeed.runningSpeed = SpeedMove;
         playerController.strafeSpeed.sprintSpeed = SpeedPhone;
 
+        ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, "Arrived");
     }
 
     // Update is called once per frame
@@ -72,7 +73,7 @@ public class PlayerState : MonoBehaviour
 
         if (Input.GetKeyDown("space"))
         {
-            GameObject.Find("NetworkManager").GetComponent<ServerMessageManager>().SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
+            ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
 
         }
     }

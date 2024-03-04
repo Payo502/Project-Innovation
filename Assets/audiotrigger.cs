@@ -23,7 +23,7 @@ public class audiotrigger : MonoBehaviour
         if (!hasBeenHeard)
         {
             Debug.Log("played sound " + sound);
-            GameObject.Find("networkManager").GetComponent<ServerMessageManager>().SendStringMessagesToClient(ServerToClientId.stringMessage, sound);
+            ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, sound);
             hasBeenHeard = true;
         }
     }

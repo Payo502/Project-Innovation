@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class CheckConnection : MonoBehaviour
 {
@@ -13,14 +14,11 @@ public class CheckConnection : MonoBehaviour
 
     public void proceed()
     {
-        if (Connected)
-        {
-            connectionCheck.SetActive(false);
-            Screen.SetActive(true);
-        }
-        else
-        {
-            dontKnow.color = Color.red;
-        }
+        SceneManager.LoadScene("testlevel1_Art");
+    }
+
+    public void StartLevel()
+    {
+        SceneManager.LoadScene("testlevel1_Art");
     }
 }

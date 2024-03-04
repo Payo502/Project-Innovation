@@ -86,20 +86,29 @@ public class ServerMessageManager : MonoBehaviour
         Debug.Log($"{content} was received by the client");
     }
 
-    [MessageHandler((ushort)ClientToServerId.boolMessageDoor)]
+    [MessageHandler((ushort)ClientToServerId.boolMessageDoorOpen)]
     private static void OnBoolMessageDoorReceived(ushort a, Message message)
     {
         bool content = message.GetBool();
-        Debug.Log($"{content} was received by the client");
-        GameObject.Find("NetworkManager").GetComponent<ServerMessageManager>().playerState.PickupPhone(content);
+        Debug.Log($"{content} was received by the client, opening door");
+        GameObject.Find("Door").GetComponent<doormove>().open(content);
     }
 
     [MessageHandler((ushort)ClientToServerId.boolMessageScream)]
     private static void OnBoolMessageScreamReceived(ushort a, Message message)
     {
         bool content = message.GetBool();
-        Debug.Log($"{content} was received by the client");
+        Debug.Log($"{content} was received by the client, Scream has been detected");
         GameObject.Find("Player").GetComponent<PlayerState>().ScreamReceived(content);
+    }
+
+    [MessageHandler((ushort)ClientToServerId.boolMessagePhonePickedUp)]
+    private static void OnBoolMessagePhonePickedUp(ushort a, Message message)
+    {
+        bool content = message.GetBool();
+        Debug.Log($"{content} was received by the client, Phone has been picked up");
+        GameObject.Find("Player").GetComponent<PlayerState>().PickupPhone(content);
+        GameObject.Find("Door").GetComponent<doormove>().open(content);
     }
 
 
