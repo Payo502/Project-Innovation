@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/Sound design/FmodProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638447386529864186
+  lastModified: 638451573915104613
   FileSizes:
   - Name: Desktop
-    Value: 814
+    Value: 920
   Exists: 1
 --- !u!114 &-5550870513291016010
 MonoBehaviour:
@@ -47,6 +47,58 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 937
+--- !u!114 &-4737439715482864993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music
+  Guid:
+    Data1: -83016751
+    Data2: 1152358424
+    Data3: -1379653722
+    Data4: 867118699
+  Banks:
+  - {fileID: 1514186451059074401}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -610344043551980564}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 72574
+--- !u!114 &-610344043551980564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Music/Music Progression
+  m_EditorClassIdentifier: 
+  Name: Music Progression
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 1733917283
+    data2: 2641116240
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-317029483341212479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,12 +144,13 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -5550870513291016010}
   - {fileID: -317029483341212479}
+  - {fileID: -4737439715482864993}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1514186451059074401}
   StringsBanks:
   - {fileID: -6344277370301964819}
-  cacheTime: 638447386529864186
+  cacheTime: 638451573915104613
   cacheVersion: 131607
 --- !u!114 &1514186451059074401
 MonoBehaviour:
@@ -114,8 +167,8 @@ MonoBehaviour:
   Path: Assets/Sound design/FmodProject/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638447386529854183
+  lastModified: 638451573915094610
   FileSizes:
   - Name: Desktop
-    Value: 83776
+    Value: 1009504
   Exists: 1
