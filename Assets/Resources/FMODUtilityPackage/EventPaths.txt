@@ -1,2 +1,3 @@
 event:/Footsteps
 event:/MC_Footsteps
+event:/Music
