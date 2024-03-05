@@ -459,6 +459,7 @@ GameObject:
   - component: {fileID: 1820475182423952237}
   - component: {fileID: 1820475182423952232}
   - component: {fileID: 1820475182423952233}
+  - component: {fileID: 5511454790318610238}
   m_Layer: 0
   m_Name: Guard Movement
   m_TagString: Untagged
@@ -582,6 +583,25 @@ MonoBehaviour:
   velocity: 0
   deseiredvelocity: 0
   path: 0
+--- !u!114 &5511454790318610238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820475182423952226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a87b331bcb0dcd41838697360bac358, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EventPath:
+    Guid:
+      Data1: -1504761998
+      Data2: 1190632248
+      Data3: -184173682
+      Data4: 1600586743
+    Path: event:/Footsteps
 --- !u!1 &1831468028322380386
 GameObject:
   m_ObjectHideFlags: 0
