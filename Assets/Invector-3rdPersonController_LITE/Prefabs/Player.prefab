@@ -1832,11 +1832,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EventPath:
     Guid:
-      Data1: -1504761998
-      Data2: 1190632248
-      Data3: -184173682
-      Data4: 1600586743
-    Path: event:/Footsteps
+      Data1: 1898663892
+      Data2: 1289349532
+      Data3: 1055507874
+      Data4: -1704873242
+    Path: event:/MC_Footsteps
 --- !u!114 &8055721159486047336
 MonoBehaviour:
   m_ObjectHideFlags: 0

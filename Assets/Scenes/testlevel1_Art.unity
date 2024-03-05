@@ -2171,32 +2171,32 @@ PrefabInstance:
     - target: {fileID: 8055721159486047637, guid: 505afc99d636b034394dca299d90b137,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.17
+      value: 1.72
       objectReference: {fileID: 0}
     - target: {fileID: 8055721159486047637, guid: 505afc99d636b034394dca299d90b137,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.22
+      value: 1.86
       objectReference: {fileID: 0}
     - target: {fileID: 8055721159486047637, guid: 505afc99d636b034394dca299d90b137,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.31
+      value: -6.81
       objectReference: {fileID: 0}
     - target: {fileID: 8055721159486047637, guid: 505afc99d636b034394dca299d90b137,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.0000001872535
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8055721159486047637, guid: 505afc99d636b034394dca299d90b137,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8055721159486047637, guid: 505afc99d636b034394dca299d90b137,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8055721159486047637, guid: 505afc99d636b034394dca299d90b137,
         type: 3}
@@ -2211,7 +2211,7 @@ PrefabInstance:
     - target: {fileID: 8055721159486047637, guid: 505afc99d636b034394dca299d90b137,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -180.00002
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8055721159486047637, guid: 505afc99d636b034394dca299d90b137,
         type: 3}
@@ -12634,8 +12634,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3.52, y: 3.39, z: 3.42}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3.52, y: 3.9203968, z: 3.42}
+  m_Center: {x: 0, y: -0.26519847, z: 0}
 --- !u!114 &1612899349
 MonoBehaviour:
   m_ObjectHideFlags: 0

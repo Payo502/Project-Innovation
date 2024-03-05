@@ -1417,8 +1417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UIgroup: {fileID: 452787944}
   nextScene: cutscene
-  sound: Opening
-  Screen: {fileID: 452787939}
+  sound: Doors Stuck
   Working: 0
   Url: https://www.youtube.com/watch?v=tYzMYcUty6s
 --- !u!114 &1468404717

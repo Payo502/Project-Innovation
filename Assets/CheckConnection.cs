@@ -14,7 +14,14 @@ public class CheckConnection : MonoBehaviour
 
     public void proceed()
     {
-        SceneManager.LoadScene("testlevel1_Art");
+        if (Connected)
+        {
+            SceneManager.LoadScene("testlevel1_Art");
+        }
+        else
+        {
+            dontKnow.color = Color.red;
+        }
     }
 
     public void StartLevel()
