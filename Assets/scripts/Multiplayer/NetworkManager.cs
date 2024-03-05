@@ -14,8 +14,10 @@ public enum ClientToServerId : ushort
 {
     stringMessage = 1,
     floatMessage = 2,
-    intMessage = 3, 
-    boolMessage = 4,
+    intMessage = 3,
+    boolMessagePhonePickedUp = 4,
+    boolMessageScream = 5,
+    boolMessageDoorOpen = 6,
 }
 
 public class NetworkManager : MonoBehaviour
@@ -45,6 +47,7 @@ public class NetworkManager : MonoBehaviour
     private void Awake()
     {
         Singleton = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     private void Start()

@@ -52,7 +52,6 @@ public class GameManager : MonoBehaviour
     public void MainMenu()
     {
         // WHEN MAIN MENU SCENE IS MADE UNCOMMENT
-        //SceneManager.LoadScene("MainMenu");
-        Debug.Log("MAIN MENU");
+        SceneManager.LoadScene("startscreen");
     }
 }

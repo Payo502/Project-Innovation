@@ -15,6 +15,7 @@ public class ComputerInteraction : MonoBehaviour, IInteractable
         if (player != null)
         {
             player.ChangeFrequency(newFrequency);
+            ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, "Guard");
             return true;
         }
 

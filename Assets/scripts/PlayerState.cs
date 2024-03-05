@@ -40,6 +40,7 @@ public class PlayerState : MonoBehaviour
         playerController.strafeSpeed.runningSpeed = SpeedMove;
         playerController.strafeSpeed.sprintSpeed = SpeedPhone;
 
+        ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, "Arrived");
     }
 
     // Update is called once per frame
@@ -72,13 +73,8 @@ public class PlayerState : MonoBehaviour
 
         if (Input.GetKeyDown("space"))
         {
-            GameObject.Find("networkManager").GetComponent<ServerMessageManager>().SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
+            ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
 
-        }
-
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            DirectGuardsToLocation(guardsLocation.position);
         }
     }
 
@@ -114,5 +110,14 @@ public class PlayerState : MonoBehaviour
     public void ChangeFrequency(Frequency newFrequency)
     {
         currentFrequency = newFrequency;
+    }
+
+    public void ScreamReceived(bool screamReceived)
+    {
+        if (screamReceived)
+        {
+            Debug.Log("Directing Guards to location");
+            DirectGuardsToLocation(guardsLocation.position);
+        }
     }
 }
