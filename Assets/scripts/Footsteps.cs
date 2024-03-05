@@ -13,13 +13,11 @@ public class Footsteps : MonoBehaviour
     {
         EventInstance e = AudioPlayer.GetEventInstance(AudioEventType.MC_Footsteps);
         AudioPlayer.PlayOneShot3D(AudioEventType.MC_Footsteps, gameObject);
-        Debug.Log("Stepping");
     }
 
     void PlayGuardFootstepSound()
     {
         EventInstance e = AudioPlayer.GetEventInstance(AudioEventType.Footsteps);
         AudioPlayer.PlayOneShot3D(AudioEventType.Footsteps, gameObject);
-        Debug.Log("Stepping");
     }
 }

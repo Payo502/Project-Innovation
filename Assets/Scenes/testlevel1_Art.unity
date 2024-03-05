@@ -9878,6 +9878,22 @@ MonoBehaviour:
           Data3: -1379653722
           Data4: 867118699
         Path: event:/Music
+    - key: 3
+      value:
+        Guid:
+          Data1: -1678493758
+          Data2: 1244958302
+          Data3: -537860679
+          Data4: -1006852924
+        Path: event:/Door
+    - key: 4
+      value:
+        Guid:
+          Data1: -1509355788
+          Data2: 1287510527
+          Data3: -23975800
+          Data4: 1701704585
+        Path: event:/StaticNoise
     buses:
     - key: 0
       value: bus:/
@@ -17703,6 +17719,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8819130380112094439, guid: b321b6cfd5054234c8694612358acf05,
+        type: 3}
+      propertyPath: speed
+      value: 0.008
       objectReference: {fileID: 0}
     - target: {fileID: 8819130380112094457, guid: b321b6cfd5054234c8694612358acf05,
         type: 3}

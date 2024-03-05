@@ -22,5 +22,15 @@ namespace FMODUtilityPackage.Enums
 		/// event:/Music
 		/// </FMODEventPath>
 		Music,
+
+		/// <FMODEventPath>
+		/// event:/Door
+		/// </FMODEventPath>
+		Door,
+
+		/// <FMODEventPath>
+		/// event:/StaticNoise
+		/// </FMODEventPath>
+		StaticNoise,
 	}
 }
