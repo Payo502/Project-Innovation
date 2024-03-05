@@ -91,7 +91,7 @@ public class ServerMessageManager : MonoBehaviour
     {
         bool content = message.GetBool();
         Debug.Log($"{content} was received by the client, opening door");
-        GameObject.Find("Door").GetComponent<doormove>().open(content);
+        GameObject.Find("Door").GetComponent<doormove>().Open(content);
     }
 
     [MessageHandler((ushort)ClientToServerId.boolMessageScream)]
@@ -108,7 +108,6 @@ public class ServerMessageManager : MonoBehaviour
         bool content = message.GetBool();
         Debug.Log($"{content} was received by the client, Phone has been picked up");
         GameObject.Find("Player").GetComponent<PlayerState>().PickupPhone(content);
-        GameObject.Find("Door").GetComponent<doormove>().open(content);
     }
 
 

@@ -112,6 +112,11 @@ public class PlayerState : MonoBehaviour
         currentFrequency = newFrequency;
     }
 
+    public Frequency GetFrequency()
+    {
+        return currentFrequency;
+    }
+
     public void ScreamReceived(bool screamReceived)
     {
         if (screamReceived)
