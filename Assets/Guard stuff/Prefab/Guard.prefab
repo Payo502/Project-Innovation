@@ -2366,8 +2366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a2c5c32b4aae44ca558199bbb14fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fov: 3
-  fovAngle: 156
+  fov: 5
+  fovAngle: 150
   alertStage: 0
   alertLevel: 0
   obstacleLayer:
