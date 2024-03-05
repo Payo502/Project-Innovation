@@ -2,46 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class StartMenu : MonoBehaviour
 {
-    [SerializeField] private CanvasGroup UIgroup;
     public string nextScene; // Name of the scene to switch to
-    private bool switching;
-    [SerializeField] string sound;
-    public GameObject Screen;
-    public bool Working;
-    public string Url;
 
     void Update()
     {
-        if (Working)
+        // Check if any button is pressed
+        if (Input.anyKeyDown)
         {
-            if (Input.anyKeyDown || Input.GetMouseButtonDown(0) && switching == false)
-            {
-                switching = true;
-                Debug.Log("played sound " + sound);
-                this.GetComponent<ServerMessageManager>().SendStringMessagesToClient(ServerToClientId.stringMessage, sound);
-                StartCoroutine(loadingScene());
-            }
+            // Load the scene with the specified name
+            SceneManager.LoadScene(nextScene);
         }
-        if (switching)
-        {
-            UIgroup.alpha -= 0.01f;
-        }
-
-    }
-    
-    public void lost()
-    {
-        Application.OpenURL(Url);
     }
 
-    IEnumerator loadingScene()
-    {
-        yield return new WaitForSeconds(5f);
+    void OnMouseDown() 
+    { 
         SceneManager.LoadScene(nextScene);
-    }
+    } 
    
 }

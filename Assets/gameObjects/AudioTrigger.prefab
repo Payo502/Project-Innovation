@@ -59,4 +59,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hasBeenHeard: 0
-  sound: 
+  sound: tape2

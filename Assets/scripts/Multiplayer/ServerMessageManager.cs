@@ -86,23 +86,13 @@ public class ServerMessageManager : MonoBehaviour
         Debug.Log($"{content} was received by the client");
     }
 
-    [MessageHandler((ushort)ClientToServerId.boolMessageDoor)]
-    private static void OnBoolMessageDoorReceived(ushort a, Message message)
+    [MessageHandler((ushort)ClientToServerId.boolMessage)]
+    private static void OnBoolMessageReceived(ushort a, Message message)
     {
         bool content = message.GetBool();
         Debug.Log($"{content} was received by the client");
         GameObject.Find("NetworkManager").GetComponent<ServerMessageManager>().playerState.PickupPhone(content);
     }
-
-    [MessageHandler((ushort)ClientToServerId.boolMessageScream)]
-    private static void OnBoolMessageScreamReceived(ushort a, Message message)
-    {
-        bool content = message.GetBool();
-        Debug.Log($"{content} was received by the client");
-        GameObject.Find("Player").GetComponent<PlayerState>().ScreamReceived(content);
-    }
-
-
     #endregion
 
 }
