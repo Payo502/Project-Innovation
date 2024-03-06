@@ -21,19 +21,21 @@ public class CutScene : MonoBehaviour
         // Subscribe to the AudioSource's end event
         audioSource.loop = false;
         audioSource.Play();
+        StartCoroutine(WaitForCutscene());
     }
 
     void Update()
     {
-        // Check if the audio has finished playing
-        if (!audioSource.isPlaying)
-        {
-            // Load the next scene
-            SceneManager.LoadScene(nextScene);
-        }
         if (Input.GetKey(KeyCode.KeypadEnter))
         {
+            audioSource.Stop();
             SceneManager.LoadScene(nextScene);
         }
+    }
+
+    IEnumerator WaitForCutscene()
+    {
+        yield return new WaitForSeconds(25.7f);
+        SceneManager.LoadScene(nextScene);
     }
 }

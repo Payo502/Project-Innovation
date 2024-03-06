@@ -479,7 +479,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &452787940
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1245,7 +1245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1275765706
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1417,9 +1417,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   UIgroup: {fileID: 452787944}
   nextScene: cutscene
-  sound: Doors Stuck
+  sound: Opening lines
   Working: 0
-  Url: https://www.youtube.com/watch?v=tYzMYcUty6s
+  Url: https://youtu.be/r9qeaWkl_B0
 --- !u!114 &1468404717
 MonoBehaviour:
   m_ObjectHideFlags: 0

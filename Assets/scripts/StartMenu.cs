@@ -25,7 +25,7 @@ public class StartMenu : MonoBehaviour
                 StartCoroutine(loadingScene());
             }
         }
-        if (switching)
+        if (switching && UIgroup != null)
         {
             UIgroup.alpha -= 0.01f;
         }
@@ -40,5 +40,6 @@ public class StartMenu : MonoBehaviour
     {
         yield return new WaitForSeconds(5f);
         SceneManager.LoadScene(nextScene);
+        Working = false;
     }
 }

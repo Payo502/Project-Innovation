@@ -18,7 +18,7 @@ namespace FMODUtilityPackage.Audioplayers.UI
 	/// <summary>
 	/// Play an <see cref="EventTrigger"/> as a reaction to an <see cref="UnityEngine.EventSystems"/> event 
 	/// </summary>
-	public class EventTriggerAudioPlayer : BetterMonoBehaviour
+	public class EventTriggerSoundPlayer : BetterMonoBehaviour
 	{
 		[Serializable]
 		public struct AudioEventData
