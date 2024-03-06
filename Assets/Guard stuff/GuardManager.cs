@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public enum AlertStage
 {
@@ -11,6 +12,10 @@ public enum AlertStage
 
 public class GuardManager : MonoBehaviour
 {
+    [Header("How fast the guard detects you")]
+    [SerializeField] float detectionRate = 0.1f;
+
+    [Header("FOV Settings")]
     public float fov;
     [Range(0, 360)] public float fovAngle;
 
@@ -23,9 +28,13 @@ public class GuardManager : MonoBehaviour
 
     public Frequency currentFrequency;
 
+    [Header("UI Elements")]
+    [SerializeField] GameObject warningExclamationMark;
+
     private void Awake()
     {
         alertStage = AlertStage.Peaceful;
+        warningExclamationMark.SetActive(false);
         alertLevel = 0;
 
         guardLocomotion = GetComponentInParent<GuardLocomotion>();
@@ -67,12 +76,20 @@ public class GuardManager : MonoBehaviour
         {
             case AlertStage.Peaceful:
                 if (playerInFOV)
+                { 
+
                     alertStage = AlertStage.Intrigued;
+                }
+
+                warningExclamationMark.SetActive(false); 
+
                 break;
             case AlertStage.Intrigued:
                 if (playerInFOV)
                 {
-                    alertLevel++;
+                    warningExclamationMark.SetActive(true);
+
+                    alertLevel = alertLevel + detectionRate;
                     if (alertLevel >= 100)
                     {
                         alertStage = AlertStage.Alerted;
@@ -81,7 +98,7 @@ public class GuardManager : MonoBehaviour
                 }
                 else
                 {
-                    alertLevel--;
+                    alertLevel = alertLevel - detectionRate;
                     if (alertLevel <= 0)
                     {
                         alertStage = AlertStage.Peaceful;
@@ -91,7 +108,9 @@ public class GuardManager : MonoBehaviour
                 break;
             case AlertStage.Alerted:
                 if (!playerInFOV)
+                {
                     alertStage = AlertStage.Intrigued;
+                }
                 break;
         }
     }

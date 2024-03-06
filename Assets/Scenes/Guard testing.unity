@@ -544,6 +544,38 @@ MonoBehaviour:
           Data3: -184173682
           Data4: 1600586743
         Path: event:/Footsteps
+    - key: 1
+      value:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    - key: 2
+      value:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    - key: 3
+      value:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
+    - key: 4
+      value:
+        Guid:
+          Data1: 0
+          Data2: 0
+          Data3: 0
+          Data4: 0
+        Path: 
     buses:
     - key: 0
       value: bus:/
