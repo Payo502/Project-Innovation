@@ -3,7 +3,52 @@ guid: 8e7a244640673b9408c822a25c058f45
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base_Next2Mat
+    second: {fileID: 2100000, guid: b85ca64ae63830b43bfa32bc2d9a39fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_group1Mat
+    second: {fileID: 2100000, guid: b85ca64ae63830b43bfa32bc2d9a39fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_group2Mat
+    second: {fileID: 2100000, guid: a4fa79ef04aa7e54399a8ff0dcb7bcd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_group3Mat
+    second: {fileID: 2100000, guid: a4fa79ef04aa7e54399a8ff0dcb7bcd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_group4Mat
+    second: {fileID: 2100000, guid: b85ca64ae63830b43bfa32bc2d9a39fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_group5Mat
+    second: {fileID: 2100000, guid: a4fa79ef04aa7e54399a8ff0dcb7bcd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube1_group6Mat
+    second: {fileID: 2100000, guid: a4fa79ef04aa7e54399a8ff0dcb7bcd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCube2Mat
+    second: {fileID: 2100000, guid: b85ca64ae63830b43bfa32bc2d9a39fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder1Mat
+    second: {fileID: 2100000, guid: 72f030e826691f445a93da9cb5ded7d1, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
