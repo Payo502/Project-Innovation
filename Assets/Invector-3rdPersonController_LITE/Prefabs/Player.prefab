@@ -1770,7 +1770,7 @@ MonoBehaviour:
   verticallInput: Vertical
   jumpInput: 0
   strafeInput: 9
-  sprintInput: 306
+  sprintInput: 0
   rotateCameraXInput: Mouse X
   rotateCameraYInput: Mouse Y
   cc: {fileID: 0}
@@ -1874,7 +1874,7 @@ MonoBehaviour:
   mystate: 0
   testphonecontrols: 0
   SpeedMin: 1
-  SpeedMove: 3
+  SpeedMove: 2
   SpeedPhone: 2
   SpeedCrouch: 2
   guardsLocation: {fileID: 0}
