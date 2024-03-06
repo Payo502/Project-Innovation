@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Sound design/FmodProject/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638451691019108718
+  lastModified: 638452516816147021
   FileSizes:
   - Name: Desktop
     Value: 996
@@ -42,7 +42,7 @@ MonoBehaviour:
   - {fileID: 1514186451059074401}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -121,7 +121,7 @@ MonoBehaviour:
   - {fileID: 1514186451059074401}
   IsStream: 0
   Is3D: 0
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -145,36 +145,16 @@ MonoBehaviour:
   - {fileID: -5550870513291016010}
   - {fileID: -317029483341212479}
   - {fileID: -4737439715482864993}
-  - {fileID: 4315126818263641170}
-  - {fileID: 7420772672938098466}
+  - {fileID: 396612306219109188}
+  - {fileID: 1809466300086315526}
   EditorParameters: []
   MasterBanks:
   - {fileID: 1514186451059074401}
   StringsBanks:
   - {fileID: -6344277370301964819}
-  cacheTime: 638451691019108718
+  cacheTime: 638452516816147021
   cacheVersion: 131607
---- !u!114 &1514186451059074401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Sound design/FmodProject/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638451691019098703
-  FileSizes:
-  - Name: Desktop
-    Value: 1339968
-  Exists: 1
---- !u!114 &4315126818263641170
+--- !u!114 &396612306219109188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -201,7 +181,27 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5666
---- !u!114 &7420772672938098466
+--- !u!114 &1514186451059074401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Sound design/FmodProject/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638452516816137016
+  FileSizes:
+  - Name: Desktop
+    Value: 1339712
+  Exists: 1
+--- !u!114 &1809466300086315526
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

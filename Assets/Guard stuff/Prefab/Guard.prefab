@@ -459,7 +459,7 @@ GameObject:
   - component: {fileID: 1820475182423952237}
   - component: {fileID: 1820475182423952232}
   - component: {fileID: 1820475182423952233}
-  - component: {fileID: 5674777012207445070}
+  - component: {fileID: 5511454790318610238}
   m_Layer: 0
   m_Name: Guard Movement
   m_TagString: Untagged
@@ -543,9 +543,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.29
-  m_Height: 1.9938915
+  m_Height: 1.9
   m_Direction: 1
-  m_Center: {x: 0, y: 0.9030541, z: 0}
+  m_Center: {x: 0, y: 0.95, z: 0}
 --- !u!195 &1820475182423952232
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -583,7 +583,7 @@ MonoBehaviour:
   velocity: 0
   deseiredvelocity: 0
   path: 0
---- !u!114 &5674777012207445070
+--- !u!114 &5511454790318610238
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2366,8 +2366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a2c5c32b4aae44ca558199bbb14fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fov: 3
-  fovAngle: 156
+  fov: 5
+  fovAngle: 150
   alertStage: 0
   alertLevel: 0
   obstacleLayer:

@@ -10,11 +10,10 @@ public class StartMenu : MonoBehaviour
     public string nextScene; // Name of the scene to switch to
     private bool switching;
     [SerializeField] string sound;
-    public GameObject Screen;
     public bool Working;
     public string Url;
 
-    void Update()
+    private void Update()
     {
         if (Working)
         {
@@ -30,9 +29,8 @@ public class StartMenu : MonoBehaviour
         {
             UIgroup.alpha -= 0.01f;
         }
-
     }
-    
+
     public void lost()
     {
         Application.OpenURL(Url);
@@ -43,5 +41,4 @@ public class StartMenu : MonoBehaviour
         yield return new WaitForSeconds(5f);
         SceneManager.LoadScene(nextScene);
     }
-   
 }

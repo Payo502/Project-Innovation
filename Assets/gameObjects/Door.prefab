@@ -146,6 +146,13 @@ MonoBehaviour:
   up: 0
   speed: 0.01
   upwardsHeight: 3
+  m_EventPath:
+    Guid:
+      Data1: -1678493758
+      Data2: 1244958302
+      Data3: -537860679
+      Data4: -1006852924
+    Path: event:/Door
 --- !u!1 &8819130380430384434
 GameObject:
   m_ObjectHideFlags: 0
