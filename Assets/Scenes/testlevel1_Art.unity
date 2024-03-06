@@ -13429,13 +13429,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   soundEvents:
-  - name: tape2
+  - name: Doors Stuck
     execute:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 835315761}
           m_TargetAssemblyTypeName: doormove, Assembly-CSharp
-          m_MethodName: open
+          m_MethodName: Open
           m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
