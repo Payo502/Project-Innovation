@@ -15,4 +15,5 @@ public enum Frequency
     frequency01,
     frequency02,
     frequency03,
+    frequency04,
 }
