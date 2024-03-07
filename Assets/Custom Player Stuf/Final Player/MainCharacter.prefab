@@ -1115,6 +1115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60c024f5d4e33f2408e8229d37f1e1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDebugging: 0
   currentFrequency: 0
   bodyTransform: {fileID: 7328884486695837688}
   playerController: {fileID: 3346040579061599808}
@@ -1124,7 +1125,7 @@ MonoBehaviour:
   SpeedMove: 2
   SpeedPhone: 0
   SpeedCrouch: 2
-  guardsLocation: {fileID: 0}
+  guardLocations: []
 --- !u!114 &9152743277300278546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1307,8 +1308,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 1611}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 58.6, y: 1767.7}
+  m_SizeDelta: {x: 422.8, y: 313.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3346040578180554622
 CanvasRenderer:
@@ -1331,7 +1332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.41132665, g: 0.4433962, b: 0.2830485, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1445,7 +1446,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Interact
+  m_text: Interact [E]
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1454,8 +1455,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4289579198
+  m_fontColor: {r: 0.74509805, g: 0.7843138, b: 0.6784314, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1472,10 +1473,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 36
+  m_fontSize: 144.45
+  m_fontSizeBase: 144.45
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
