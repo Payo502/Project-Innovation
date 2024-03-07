@@ -28,6 +28,9 @@ public class ComputerInteraction : MonoBehaviour, IInteractable
             }else if(player.GetFrequency() == Frequency.frequency03)
             {
                 enumVaue = 324f;
+            } else if(player.GetFrequency() == Frequency.frequency04)
+            {
+                enumVaue = 467f;
             }
 
             ServerMessageManager.Singleton.SendFloatMessagesToClient(ServerToClientId.floatMessage, enumVaue);

@@ -4,9 +4,20 @@ using UnityEngine;
 using Invector.vCharacterController;
 using System;
 
+[Serializable]
+public struct GuardLocation
+{
+    public string name;
+    public Frequency locationFrequency;
+    public Transform guardLocation;
+}
+
 
 public class PlayerState : MonoBehaviour
 {
+    [Header("Developer Options")]
+    [SerializeField] bool isDebugging;
+
     [Header("Frequency")]
     [SerializeField] private Frequency currentFrequency;
 
@@ -24,8 +35,8 @@ public class PlayerState : MonoBehaviour
     [SerializeField] private float SpeedPhone;
     [SerializeField] private float SpeedCrouch;
 
-    [Header("Controlling Guards")]
-    [SerializeField] private Transform guardsLocation;
+    [Header("Guards Locations")]
+    [SerializeField] GuardLocation[] guardLocations;
 
     private bool isInteracting;
 
@@ -71,11 +82,17 @@ public class PlayerState : MonoBehaviour
         playerController.freeSpeed.sprintSpeed = SpeedCrouchNow;
         playerController.strafeSpeed.sprintSpeed = SpeedCrouchNow;
 
-        if (Input.GetKeyDown("space"))
+        if (isDebugging)
         {
-            ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
+            DebugInput();
 
         }
+
+        /*        if (Input.GetKeyDown("space"))
+                {
+                    ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
+
+                }*/
     }
 
     public void PickupPhone(bool Pickedup)
@@ -92,17 +109,21 @@ public class PlayerState : MonoBehaviour
         }
     }
 
-    public void DirectGuardsToLocation(Vector3 location)
+    public void DirectGuardsToLocation()
     {
-        GameObject[] guardObjects = GameObject.FindGameObjectsWithTag("Guard");
-
-        foreach (GameObject guard in guardObjects)
+        foreach (GuardLocation guardLocation in guardLocations)
         {
-            GuardManager guardManager = guard.GetComponentInChildren<GuardManager>();
-            if (guardManager != null && guardManager.currentFrequency == currentFrequency)
+            if (guardLocation.locationFrequency == currentFrequency)
             {
-                guardManager.GetComponentInParent<GuardLocomotion>().MoveToLocation(location);
-                Debug.Log(guardManager);
+                GameObject[] guardObjects = GameObject.FindGameObjectsWithTag("Guard");
+                foreach (GameObject guard in guardObjects)
+                {
+                    GuardManager guardManager = guard.GetComponentInChildren<GuardManager>();
+                    if (guardManager != null && guardManager.currentFrequency == currentFrequency)
+                    {
+                        guardManager.GetComponentInParent<GuardLocomotion>().MoveToLocation(guardLocation.guardLocation.position);
+                    }
+                }
             }
         }
     }
@@ -117,12 +138,21 @@ public class PlayerState : MonoBehaviour
         return currentFrequency;
     }
 
+    void DebugInput()
+    {
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            Debug.Log("Directing Guards to location");
+            DirectGuardsToLocation();
+        }
+    }
+
     public void ScreamReceived(bool screamReceived)
     {
         if (screamReceived)
         {
-            Debug.Log("Directing Guards to location");
-            DirectGuardsToLocation(guardsLocation.position);
+            /*            Debug.Log("Directing Guards to location");
+                        DirectGuardsToLocation();*/
         }
     }
 }
