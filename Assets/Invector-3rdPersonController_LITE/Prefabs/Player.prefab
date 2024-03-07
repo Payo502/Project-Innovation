@@ -1875,7 +1875,7 @@ MonoBehaviour:
   testphonecontrols: 0
   SpeedMin: 1
   SpeedMove: 2
-  SpeedPhone: 2
+  SpeedPhone: 0
   SpeedCrouch: 2
   guardsLocation: {fileID: 0}
 --- !u!1 &8055721159531518568
