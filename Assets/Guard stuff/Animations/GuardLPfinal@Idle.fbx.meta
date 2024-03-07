@@ -1,0 +1,919 @@
+fileFormatVersion: 2
+guid: 51722ee11e5a2614fadebe1715b4cd32
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: mixamo.com
+      internalID: -203655887218126122
+      firstFrame: 0
+      lastFrame: 117
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: HelmetLP:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: HelmetLP:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: GuardLPfinal@Idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:Group34294
+      parentName: GuardLPfinal@Idle(Clone)
+      position: {x: -0, y: 0.04, z: 0}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 31, y: 31, z: 31}
+    - name: HelmetLP:Group34294.001
+      parentName: GuardLPfinal@Idle(Clone)
+      position: {x: -0, y: 0.04, z: 0}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 31, y: 31, z: 31}
+    - name: HelmetLP:Group34294.002
+      parentName: GuardLPfinal@Idle(Clone)
+      position: {x: -0, y: 0.04, z: 0}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 31, y: 31, z: 31}
+    - name: HelmetLP:Group34294.003
+      parentName: GuardLPfinal@Idle(Clone)
+      position: {x: -0, y: 0.04, z: 0}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 31, y: 31, z: 31}
+    - name: HelmetLP:Group34294.004
+      parentName: GuardLPfinal@Idle(Clone)
+      position: {x: -0, y: 0.04, z: 0}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 31, y: 31, z: 31}
+    - name: HelmetLP:Group34294.005
+      parentName: GuardLPfinal@Idle(Clone)
+      position: {x: -0, y: 0.04, z: 0}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 31, y: 31, z: 31}
+    - name: HelmetLP:Group34294.006
+      parentName: GuardLPfinal@Idle(Clone)
+      position: {x: -0, y: 0.04, z: 0}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 31, y: 31, z: 31}
+    - name: HelmetLP:Hips
+      parentName: GuardLPfinal@Idle(Clone)
+      position: {x: -0.009581699, y: 1.30847, z: -0.020194422}
+      rotation: {x: 0.000000004310772, y: 2.3976652e-16, z: 0.0000000030042664, w: 1}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: HelmetLP:RightUpLeg
+      parentName: HelmetLP:Hips
+      position: {x: 0.15313542, y: -0.09335222, z: 0.0010146505}
+      rotation: {x: -0.000090219255, y: -0.001886264, z: 0.9988565, w: -0.04777265}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: HelmetLP:RightLeg
+      parentName: HelmetLP:RightUpLeg
+      position: {x: -3.2033574e-11, y: 0.52054906, z: 8.546088e-12}
+      rotation: {x: -0.011527768, y: 0.00006191115, z: -0.0053716884, w: 0.9999192}
+      scale: {x: 1.0000005, y: 1.0000011, z: 1.0000006}
+    - name: HelmetLP:RightFoot
+      parentName: HelmetLP:RightLeg
+      position: {x: -7.870514e-10, y: 0.51791584, z: -4.8481985e-10}
+      rotation: {x: 0.50602216, y: 0.03879391, z: -0.022790613, w: 0.8613462}
+      scale: {x: 1.0000012, y: 0.99999994, z: 0.9999997}
+    - name: HelmetLP:RightToeBase
+      parentName: HelmetLP:RightFoot
+      position: {x: -7.0793005e-10, y: 0.28301483, z: 0.0000000047246345}
+      rotation: {x: 0.27771947, y: -0.108999476, z: 0.031733252, w: 0.95393085}
+      scale: {x: 1.0000004, y: 0.99999946, z: 1.0000013}
+    - name: HelmetLP:RightToe_End
+      parentName: HelmetLP:RightToeBase
+      position: {x: -8.494673e-11, y: 0.10978528, z: 8.769604e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:LeftUpLeg
+      parentName: HelmetLP:Hips
+      position: {x: -0.15313542, y: -0.09335222, z: 0.010890923}
+      rotation: {x: 0.0007728053, y: -0.016167104, z: 0.9987286, w: 0.047741987}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000002}
+    - name: HelmetLP:LeftLeg
+      parentName: HelmetLP:LeftUpLeg
+      position: {x: -0.0000000013754905, y: 0.5208158, z: 6.4464545e-10}
+      rotation: {x: 0.007153818, y: 0.000038148602, z: 0.005346127, w: 0.9999602}
+      scale: {x: 1.0000018, y: 1.0000014, z: 0.9999999}
+    - name: HelmetLP:LeftFoot
+      parentName: HelmetLP:LeftLeg
+      position: {x: -2.6945884e-10, y: 0.51781505, z: -2.0784786e-10}
+      rotation: {x: 0.49924824, y: -0.03874349, z: 0.022353597, w: 0.8653037}
+      scale: {x: 1.000001, y: 1.0000004, z: 0.9999998}
+    - name: HelmetLP:LeftToeBase
+      parentName: HelmetLP:LeftFoot
+      position: {x: 7.2605727e-10, y: 0.27970058, z: 0.000000006648147}
+      rotation: {x: 0.28084853, y: 0.10884722, z: -0.032076508, w: 0.9530202}
+      scale: {x: 1.0000014, y: 1.0000021, z: 0.9999992}
+    - name: HelmetLP:LeftToe_End
+      parentName: HelmetLP:LeftToeBase
+      position: {x: 1.4570524e-10, y: 0.11240275, z: 9.3306196e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:Spine
+      parentName: HelmetLP:Hips
+      position: {x: -0, y: 0.16805474, z: -0.006648833}
+      rotation: {x: -0.019770147, y: -0.00000002401459, z: -0.000000001226076, w: 0.99980456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:Spine1
+      parentName: HelmetLP:Spine
+      position: {x: -0, y: 0.19621727, z: -7.682139e-11}
+      rotation: {x: -0.0000000055879354, y: 0.000000048357297, z: -0.000000006355016,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: HelmetLP:Spine2
+      parentName: HelmetLP:Spine1
+      position: {x: -0, y: 0.22424836, z: -1.6469727e-10}
+      rotation: {x: -0.000000039115548, y: -0.00000003626055, z: 0.0000000045786406,
+        w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: HelmetLP:RightShoulder
+      parentName: HelmetLP:Spine2
+      position: {x: 0.09454588, y: 0.22092466, z: -0.0012903546}
+      rotation: {x: -0.5693664, y: -0.41674298, z: 0.57718664, w: -0.41109958}
+      scale: {x: 1.0000004, y: 1.0000012, z: 1.0000001}
+    - name: HelmetLP:RightArm
+      parentName: HelmetLP:RightShoulder
+      position: {x: -1.1117597e-10, y: 0.20102641, z: -0.000000002547835}
+      rotation: {x: 0.13511272, y: -0.04628424, z: 0.008957534, w: -0.9897081}
+      scale: {x: 1.0000011, y: 1.0000011, z: 1.0000008}
+    - name: HelmetLP:RightForeArm
+      parentName: HelmetLP:RightArm
+      position: {x: 3.567121e-10, y: 0.3584549, z: -0.0000000043528754}
+      rotation: {x: -0.025794918, y: -0.00999922, z: 0.033124767, w: 0.99906826}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000005}
+    - name: HelmetLP:RightHand
+      parentName: HelmetLP:RightForeArm
+      position: {x: 0.0000000051755285, y: 0.3344492, z: 6.9810097e-10}
+      rotation: {x: 0.087669395, y: -0.015592214, z: -0.014201664, w: 0.99592644}
+      scale: {x: 1.0000004, y: 1.0000017, z: 1.0000008}
+    - name: HelmetLP:RightHandIndex1
+      parentName: HelmetLP:RightHand
+      position: {x: -0.052645393, y: 0.16166204, z: 0.0012444087}
+      rotation: {x: 0.07165015, y: 0.0019137252, z: 0.026633864, w: 0.9970724}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999996}
+    - name: HelmetLP:RightHandIndex2
+      parentName: HelmetLP:RightHandIndex1
+      position: {x: -0.000102659855, y: 0.04022278, z: 2.9057928e-10}
+      rotation: {x: 0.0004891901, y: 0.00000018253918, z: -4.2200543e-10, w: 0.9999999}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: HelmetLP:RightHandIndex3
+      parentName: HelmetLP:RightHandIndex2
+      position: {x: -0.0000055609903, y: 0.037521087, z: 0.0000000010793029}
+      rotation: {x: 0.009811016, y: -0.00000003701106, z: -0.000000008028115, w: 0.99995196}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.99999994}
+    - name: HelmetLP:RightHandIndex4
+      parentName: HelmetLP:RightHandIndex3
+      position: {x: 0.00010822105, y: 0.031886935, z: 4.3565193e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:RightHandPinky1
+      parentName: HelmetLP:RightHand
+      position: {x: 0.048349004, y: 0.14730555, z: 0.0033250602}
+      rotation: {x: 0.0013329984, y: -0.000057708476, z: -0.043203562, w: 0.9990654}
+      scale: {x: 0.9999997, y: 0.99999934, z: 0.99999946}
+    - name: HelmetLP:RightHandPinky2
+      parentName: HelmetLP:RightHandPinky1
+      position: {x: -0.00013169496, y: 0.043500423, z: 4.674348e-11}
+      rotation: {x: 0.0017754056, y: 0.0000000046748028, z: -0.000000018275344, w: 0.9999985}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000004}
+    - name: HelmetLP:RightHandPinky3
+      parentName: HelmetLP:RightHandPinky2
+      position: {x: -0.00012677608, y: 0.03570304, z: 7.8241513e-10}
+      rotation: {x: 0.038264185, y: 0.00016715951, z: 0.0038435662, w: 0.99926025}
+      scale: {x: 1, y: 1.0000005, z: 1.0000001}
+    - name: HelmetLP:RightHandPinky4
+      parentName: HelmetLP:RightHandPinky3
+      position: {x: 0.00025847275, y: 0.03044079, z: -1.240231e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:RightHandMiddle1
+      parentName: HelmetLP:RightHand
+      position: {x: -0.013073432, y: 0.17069946, z: -0.0018931922}
+      rotation: {x: -0.014886469, y: -0.00044813566, z: 0.030081537, w: 0.99943656}
+      scale: {x: 0.99999994, y: 0.9999996, z: 0.9999997}
+    - name: HelmetLP:RightHandMiddle2
+      parentName: HelmetLP:RightHandMiddle1
+      position: {x: -0.00019367812, y: 0.047630977, z: -0.000000002037172}
+      rotation: {x: 0.040355057, y: -0.000008629807, z: 0.0013677811, w: 0.9991845}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: HelmetLP:RightHandMiddle3
+      parentName: HelmetLP:RightHandMiddle2
+      position: {x: 0.00015179622, y: 0.045430858, z: 1.7298404e-10}
+      rotation: {x: -0.019768046, y: -0.000000060018266, z: -0.000000053696716, w: 0.99980456}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.99999994}
+    - name: HelmetLP:RightHandMiddle4
+      parentName: HelmetLP:RightHandMiddle3
+      position: {x: 0.000041881198, y: 0.03929556, z: -6.580245e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:RightHandRing1
+      parentName: HelmetLP:RightHand
+      position: {x: 0.017369835, y: 0.17583887, z: -0.001312844}
+      rotation: {x: -0.0173913, y: -0.00010376329, z: 0.0059564128, w: 0.999831}
+      scale: {x: 0.9999998, y: 0.99999946, z: 0.99999994}
+    - name: HelmetLP:RightHandRing2
+      parentName: HelmetLP:RightHandRing1
+      position: {x: -0.00012983591, y: 0.03808063, z: 2.44885e-10}
+      rotation: {x: 0.032291174, y: -6.1118044e-10, z: 0.000000027530291, w: 0.9994785}
+      scale: {x: 1, y: 0.9999996, z: 0.9999998}
+    - name: HelmetLP:RightHandRing3
+      parentName: HelmetLP:RightHandRing2
+      position: {x: 0.000009461176, y: 0.039143886, z: -4.810228e-10}
+      rotation: {x: 0.035189558, y: 0.00000013629844, z: -0.000000014387513, w: 0.9993807}
+      scale: {x: 1, y: 1.0000005, z: 1.0000004}
+    - name: HelmetLP:RightHandRing4
+      parentName: HelmetLP:RightHandRing3
+      position: {x: 0.000120376135, y: 0.029555658, z: 6.8713846e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:RightHandThumb1
+      parentName: HelmetLP:RightHand
+      position: {x: -0.040641375, y: 0.045260042, z: 0.020359466}
+      rotation: {x: 0.0726646, y: 0.008414075, z: 0.3468385, w: 0.935068}
+      scale: {x: 0.9999996, y: 1.0000002, z: 0.9999996}
+    - name: HelmetLP:RightHandThumb2
+      parentName: HelmetLP:RightHandThumb1
+      position: {x: -0.0047301967, y: 0.051098272, z: -8.033754e-10}
+      rotation: {x: 0.03482654, y: -0.0013866742, z: 0.014073018, w: 0.9992934}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: HelmetLP:RightHandThumb3
+      parentName: HelmetLP:RightHandThumb2
+      position: {x: -0.0012963857, y: 0.05542832, z: -0.0000000013272384}
+      rotation: {x: -0.025229912, y: -0.0016711617, z: 0.04136322, w: 0.9988242}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000007}
+    - name: HelmetLP:RightHandThumb4
+      parentName: HelmetLP:RightHandThumb3
+      position: {x: 0.0060265884, y: 0.050404433, z: 0.000000001144861}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:Neck
+      parentName: HelmetLP:Spine2
+      position: {x: -0, y: 0.2522793, z: 0.0000000038964263}
+      rotation: {x: 0.019770175, y: 0.0000000117771375, z: 0.000000012252294, w: 0.99980456}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: HelmetLP:Head
+      parentName: HelmetLP:Neck
+      position: {x: -0, y: 0.09877159, z: 0.016148442}
+      rotation: {x: 0.000000024214387, y: -0.000000012017061, z: -0.000000006008532,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: HelmetLP:HeadTop_End
+      parentName: HelmetLP:Head
+      position: {x: -0, y: 0.33377257, z: 0.0545694}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:LeftShoulder
+      parentName: HelmetLP:Spine2
+      position: {x: -0.09454588, y: 0.22092071, z: -0.0011908023}
+      rotation: {x: 0.56967694, y: -0.41651735, z: 0.57689714, w: 0.41130435}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000012}
+    - name: HelmetLP:LeftArm
+      parentName: HelmetLP:LeftShoulder
+      position: {x: 1.0146227e-10, y: 0.20102641, z: -0.0000000025482398}
+      rotation: {x: -0.13525386, y: -0.047023132, z: -0.005980134, w: 0.9896765}
+      scale: {x: 0.99999994, y: 1.0000004, z: 0.9999996}
+    - name: HelmetLP:LeftForeArm
+      parentName: HelmetLP:LeftArm
+      position: {x: 5.441609e-10, y: 0.35847503, z: 0.0000000042857127}
+      rotation: {x: -0.026040789, y: 0.010440248, z: -0.03407, w: 0.99902564}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1.0000007}
+    - name: HelmetLP:LeftHand
+      parentName: HelmetLP:LeftForeArm
+      position: {x: -4.944355e-10, y: 0.33488593, z: -0.0000000045971813}
+      rotation: {x: 0.0909878, y: 0.024654329, z: 0.0169681, w: 0.99540216}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000007}
+    - name: HelmetLP:LeftHandIndex1
+      parentName: HelmetLP:LeftHand
+      position: {x: 0.0506651, y: 0.16046941, z: 0.0008771195}
+      rotation: {x: 0.07808893, y: -0.0035685445, z: -0.045510285, w: 0.9959007}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: HelmetLP:LeftHandIndex2
+      parentName: HelmetLP:LeftHandIndex1
+      position: {x: -0.000060673043, y: 0.039140057, z: 4.488126e-10}
+      rotation: {x: 0.009756557, y: -0.0000000600703, z: -0.000000054336844, w: 0.99995244}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000007}
+    - name: HelmetLP:LeftHandIndex3
+      parentName: HelmetLP:LeftHandIndex2
+      position: {x: -0.00017160317, y: 0.03872311, z: -0.0000000014870006}
+      rotation: {x: -0.038498614, y: -0.00008971049, z: 0.0036305713, w: 0.9992521}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.9999998}
+    - name: HelmetLP:LeftHandIndex4
+      parentName: HelmetLP:LeftHandIndex3
+      position: {x: 0.0002322762, y: 0.03182324, z: -0.0000000011218322}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:LeftHandMiddle1
+      parentName: HelmetLP:LeftHand
+      position: {x: 0.014104458, y: 0.17501432, z: -0.0027857304}
+      rotation: {x: 0.013313776, y: -0.00025961176, z: -0.019489542, w: 0.99972147}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: HelmetLP:LeftHandMiddle2
+      parentName: HelmetLP:LeftHandMiddle1
+      position: {x: 0.0001874132, y: 0.046850465, z: 0.0000000025729485}
+      rotation: {x: 0.02768084, y: -0.000000036932754, z: -0.00000003850072, w: 0.9996168}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000004}
+    - name: HelmetLP:LeftHandMiddle3
+      parentName: HelmetLP:LeftHandMiddle2
+      position: {x: 0.00001718876, y: 0.04408049, z: -0.0000000023084339}
+      rotation: {x: 0.041282427, y: -0.0000093738645, z: -0.00023980137, w: 0.9991476}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: HelmetLP:LeftHandMiddle4
+      parentName: HelmetLP:LeftHandMiddle3
+      position: {x: -0.00020460405, y: 0.03693596, z: 7.2371176e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:LeftHandRing1
+      parentName: HelmetLP:LeftHand
+      position: {x: -0.01546199, y: 0.17230487, z: -0.0005701713}
+      rotation: {x: -0.019051222, y: -0.000458572, z: 0.02405445, w: 0.99952906}
+      scale: {x: 1, y: 1.0000005, z: 1.0000001}
+    - name: HelmetLP:LeftHandRing2
+      parentName: HelmetLP:LeftHandRing1
+      position: {x: 0.00017383294, y: 0.041284908, z: -4.853172e-10}
+      rotation: {x: 0.02516755, y: -0.00000005308538, z: 0.000000032832983, w: 0.9996833}
+      scale: {x: 1, y: 0.99999946, z: 0.99999994}
+    - name: HelmetLP:LeftHandRing3
+      parentName: HelmetLP:LeftHandRing2
+      position: {x: 0.000044230354, y: 0.038231943, z: -0.0000000022515094}
+      rotation: {x: 0.04040628, y: -0.000060861563, z: -0.0013826821, w: 0.99918234}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000006}
+    - name: HelmetLP:LeftHandRing4
+      parentName: HelmetLP:LeftHandRing3
+      position: {x: -0.00021806256, y: 0.032975357, z: 3.5108869e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:LeftHandPinky1
+      parentName: HelmetLP:LeftHand
+      position: {x: -0.04930756, y: 0.14789829, z: 0.0017947257}
+      rotation: {x: 0.025237963, y: 0.00092822127, z: 0.036748603, w: 0.99900544}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1}
+    - name: HelmetLP:LeftHandPinky2
+      parentName: HelmetLP:LeftHandPinky1
+      position: {x: -0.000009189671, y: 0.042959683, z: 7.300579e-10}
+      rotation: {x: -0.019193213, y: 0.00000015110705, z: 0.000000033763165, w: 0.99981576}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000006}
+    - name: HelmetLP:LeftHandPinky3
+      parentName: HelmetLP:LeftHandPinky2
+      position: {x: 0.00008158012, y: 0.03590054, z: 0.000000001371959}
+      rotation: {x: 0.038109675, y: 0.0000000010036556, z: 0.000000010738413, w: 0.9992736}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000005}
+    - name: HelmetLP:LeftHandPinky4
+      parentName: HelmetLP:LeftHandPinky3
+      position: {x: -0.00007238806, y: 0.030218298, z: -0.0000000010583213}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: HelmetLP:LeftHandThumb1
+      parentName: HelmetLP:LeftHand
+      position: {x: 0.0416372, y: 0.044773344, z: 0.022285849}
+      rotation: {x: 0.08215478, y: -0.007876051, z: -0.3392019, w: 0.9370862}
+      scale: {x: 0.99999994, y: 1.000001, z: 1.0000008}
+    - name: HelmetLP:LeftHandThumb2
+      parentName: HelmetLP:LeftHandThumb1
+      position: {x: 0.0061187767, y: 0.051700477, z: -0.000000002280964}
+      rotation: {x: 0.018360492, y: 0.0008170291, z: -0.030571429, w: 0.99936366}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: HelmetLP:LeftHandThumb3
+      parentName: HelmetLP:LeftHandThumb2
+      position: {x: -0.0007828424, y: 0.05462821, z: 0.0000000013063248}
+      rotation: {x: -0.02169461, y: 0.00044450667, z: -0.011730846, w: 0.9996958}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: HelmetLP:LeftHandThumb4
+      parentName: HelmetLP:LeftHandThumb3
+      position: {x: -0.005335943, y: 0.04956903, z: 0.0000000013530409}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
