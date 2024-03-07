@@ -45,7 +45,7 @@ public class doormove : MonoBehaviour
         if (up)
         {
             yield return new WaitForSeconds(1.4f);
-            lerp += speed * Time.timeScale;
+            lerp += Time.deltaTime * speed;
         }
     }
 }

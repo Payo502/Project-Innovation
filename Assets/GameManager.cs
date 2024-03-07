@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject gameOverUI;
+    [SerializeField] private CanvasGroup UIgroup;
 
     public bool hasGameEnded = false;
-
+    
     public float restartDelay = 1f;
 
     private void Start()
@@ -27,6 +29,10 @@ public class GameManager : MonoBehaviour
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
         }
+        if (hasGameEnded)
+        {
+            UIgroup.alpha += 0.1f;
+        }
     }
 
     public void EndGame()
@@ -34,7 +40,7 @@ public class GameManager : MonoBehaviour
         if (!hasGameEnded)
         {
             gameOverUI.SetActive(true);
-
+            Time.timeScale = 0f;
             hasGameEnded = true;
         }
     }
