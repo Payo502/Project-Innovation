@@ -151,8 +151,8 @@ public class PlayerState : MonoBehaviour
     {
         if (screamReceived)
         {
-            /*            Debug.Log("Directing Guards to location");
-                        DirectGuardsToLocation();*/
+            Debug.Log("Directing Guards to location");
+            DirectGuardsToLocation();
         }
     }
 }

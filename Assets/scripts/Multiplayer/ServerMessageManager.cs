@@ -99,7 +99,7 @@ public class ServerMessageManager : MonoBehaviour
     {
         bool content = message.GetBool();
         Debug.Log($"{content} was received by the client, Scream has been detected");
-        GameObject.Find("Player").GetComponent<PlayerState>().ScreamReceived(content);
+        FindObjectOfType<PlayerState>().ScreamReceived(content);
     }
 
     [MessageHandler((ushort)ClientToServerId.boolMessagePhonePickedUp)]
@@ -107,7 +107,7 @@ public class ServerMessageManager : MonoBehaviour
     {
         bool content = message.GetBool();
         Debug.Log($"{content} was received by the client, Phone has been picked up");
-        GameObject.Find("Player").GetComponent<PlayerState>().PickupPhone(content);
+        FindObjectOfType<PlayerState>().PickupPhone(content);
     }
 
 
