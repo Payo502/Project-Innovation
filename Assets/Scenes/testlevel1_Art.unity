@@ -4855,7 +4855,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1734628641}
-  m_RootOrder: 135
+  m_RootOrder: 128
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &156054910
 MonoBehaviour:
@@ -7510,7 +7510,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1734628641}
-  m_RootOrder: 155
+  m_RootOrder: 154
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
 --- !u!64 &271374088
 MeshCollider:
@@ -8982,7 +8982,7 @@ PrefabInstance:
     - target: {fileID: 3018888742190333804, guid: f6b8e9741d6cbe24ab0ad5cb2618df7f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.19
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 3018888742190333804, guid: f6b8e9741d6cbe24ab0ad5cb2618df7f,
         type: 3}
@@ -8992,7 +8992,7 @@ PrefabInstance:
     - target: {fileID: 3018888742190333804, guid: f6b8e9741d6cbe24ab0ad5cb2618df7f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.29
+      value: -8.41
       objectReference: {fileID: 0}
     - target: {fileID: 3018888742190333804, guid: f6b8e9741d6cbe24ab0ad5cb2618df7f,
         type: 3}
@@ -10997,7 +10997,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1734628641}
-  m_RootOrder: 153
+  m_RootOrder: 138
   m_LocalEulerAnglesHint: {x: 88.373, y: -90, z: -90}
 --- !u!64 &481807239
 MeshCollider:
@@ -15657,7 +15657,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1734628641}
-  m_RootOrder: 154
+  m_RootOrder: 139
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
 --- !u!64 &625061137
 MeshCollider:
@@ -39337,7 +39337,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1734628641}
-  m_RootOrder: 136
+  m_RootOrder: 132
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1527643799
 MonoBehaviour:
@@ -43304,7 +43304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newFrequency: 1
-  prompt: Change Frequency
+  prompt: Change Frequency [E]
 --- !u!65 &1691383800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44568,15 +44568,18 @@ Transform:
   - {fileID: 831944925}
   - {fileID: 146227115}
   - {fileID: 1310120802}
+  - {fileID: 156054909}
   - {fileID: 607831940}
   - {fileID: 689032339}
   - {fileID: 1919131497}
+  - {fileID: 1527643798}
   - {fileID: 1259324878}
+  - {fileID: 2097239118}
   - {fileID: 1947583725}
   - {fileID: 1138199406}
   - {fileID: 1856639029}
-  - {fileID: 156054909}
-  - {fileID: 1527643798}
+  - {fileID: 481807238}
+  - {fileID: 625061136}
   - {fileID: 2143707126}
   - {fileID: 1054705481}
   - {fileID: 806981709}
@@ -44591,11 +44594,8 @@ Transform:
   - {fileID: 1450538634}
   - {fileID: 573712012}
   - {fileID: 994400886}
-  - {fileID: 2097239118}
-  - {fileID: 99340889}
-  - {fileID: 481807238}
-  - {fileID: 625061136}
   - {fileID: 271374087}
+  - {fileID: 99340889}
   - {fileID: 290026075}
   - {fileID: 373757964}
   - {fileID: 416481504}
@@ -47736,7 +47736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newFrequency: 2
-  prompt: Change Frequency
+  prompt: Change Frequency [E]
 --- !u!65 &1852572811
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54383,7 +54383,7 @@ Transform:
   - {fileID: 2003375999}
   - {fileID: 1618293428}
   m_Father: {fileID: 1734628641}
-  m_RootOrder: 151
+  m_RootOrder: 134
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2105113613
 GameObject:
