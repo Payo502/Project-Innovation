@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c0f0580a157ba0f4b8328183065eb683
+guid: 52cc0249ff90c974daaaa5ac6ec75306
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,8 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: initialShadingGroup
-    second: {fileID: 2100000, guid: 821f1e2b4bf89854898d3322ce3e96a4, type: 2}
+      name: pCylinder1Mat
+    second: {fileID: 2100000, guid: 371d858a03217ba42be5e3c70e780b33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pCylinder3Mat
+    second: {fileID: 2100000, guid: 6dd6994f94bfbb64095720a7c77ec656, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -52,7 +57,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

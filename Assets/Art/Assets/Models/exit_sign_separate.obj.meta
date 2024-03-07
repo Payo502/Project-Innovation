@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cbd72e0ef86afb440aa4c79edcafe975
+guid: cefe35852de8a9442990febbca24ed64
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
@@ -7,13 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Door
-    second: {fileID: 2100000, guid: 0912890988ef92d41b5033ac7e3ca931, type: 2}
+      name: polySurface1Mat
+    second: {fileID: 2100000, guid: b8054f4543528d543af517bfed453e35, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: DoorDark
-    second: {fileID: 2100000, guid: f8609c44dcaa6f54bbe286b246de67e7, type: 2}
+      name: polySurface4Mat
+    second: {fileID: 2100000, guid: c742782a612fab34fb8149af9d3ecfc3, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -57,7 +57,7 @@ ModelImporter:
     nodeNameCollisionStrategy: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1
