@@ -15,6 +15,9 @@ public struct GuardLocation
 
 public class PlayerState : MonoBehaviour
 {
+    [Header("Developer Options")]
+    [SerializeField] bool isDebugging;
+
     [Header("Frequency")]
     [SerializeField] private Frequency currentFrequency;
 
@@ -79,11 +82,17 @@ public class PlayerState : MonoBehaviour
         playerController.freeSpeed.sprintSpeed = SpeedCrouchNow;
         playerController.strafeSpeed.sprintSpeed = SpeedCrouchNow;
 
-/*        if (Input.GetKeyDown("space"))
+        if (isDebugging)
         {
-            ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
+            DebugInput();
 
-        }*/
+        }
+
+        /*        if (Input.GetKeyDown("space"))
+                {
+                    ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, "tape1");
+
+                }*/
     }
 
     public void PickupPhone(bool Pickedup)
@@ -129,12 +138,21 @@ public class PlayerState : MonoBehaviour
         return currentFrequency;
     }
 
+    void DebugInput()
+    {
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            Debug.Log("Directing Guards to location");
+            DirectGuardsToLocation();
+        }
+    }
+
     public void ScreamReceived(bool screamReceived)
     {
         if (screamReceived)
         {
-            Debug.Log("Directing Guards to location");
-            DirectGuardsToLocation();
+            /*            Debug.Log("Directing Guards to location");
+                        DirectGuardsToLocation();*/
         }
     }
 }
