@@ -2241,7 +2241,7 @@ PrefabInstance:
     - target: {fileID: 1820475182423952239, guid: 2395a2c01aaeaa14d915187cec61c0aa,
         type: 3}
       propertyPath: waypoints.Array.size
-      value: 15
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 1820475182423952239, guid: 2395a2c01aaeaa14d915187cec61c0aa,
         type: 3}
@@ -5202,6 +5202,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6bab659d169805c4d8f37fa681d29202,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6bab659d169805c4d8f37fa681d29202,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bab659d169805c4d8f37fa681d29202, type: 3}
@@ -13226,7 +13236,7 @@ GameObject:
   m_Name: Cube (2)
   m_TagString: Solid
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &594078890
@@ -27311,7 +27321,7 @@ GameObject:
   m_Name: Cube (3)
   m_TagString: Solid
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1130651994
@@ -38803,6 +38813,16 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Solid
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6bab659d169805c4d8f37fa681d29202,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6bab659d169805c4d8f37fa681d29202,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bab659d169805c4d8f37fa681d29202, type: 3}
 --- !u!1001 &1682100647
@@ -47521,6 +47541,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Solid
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6bab659d169805c4d8f37fa681d29202,
+        type: 3}
+      propertyPath: m_NavMeshLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6bab659d169805c4d8f37fa681d29202,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bab659d169805c4d8f37fa681d29202, type: 3}
