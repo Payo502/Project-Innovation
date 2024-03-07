@@ -2631,8 +2631,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.7159345, y: 3.9203968, z: 2.299825}
-  m_Center: {x: 0.082537, y: -0.26519838, z: -0.56008565}
+  m_Size: {x: 2.0344346, y: 3.9203968, z: 2.8092203}
+  m_Center: {x: 0.24178647, y: -0.26519838, z: -0.3053886}
 --- !u!64 &95432640
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23916,6 +23916,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6664085936016953393, guid: a9954d0b3906f16489ae601605ba70da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6664085936047177280, guid: a9954d0b3906f16489ae601605ba70da,
         type: 3}
@@ -45857,8 +45862,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 3, y: 5, z: 3}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 5.1866016, y: 5, z: 3.7769334}
+  m_Center: {x: 0.026664201, y: 0, z: -0.388468}
 --- !u!1 &1856541235
 GameObject:
   m_ObjectHideFlags: 0
