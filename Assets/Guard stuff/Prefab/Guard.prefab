@@ -114,7 +114,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 2.21}
+  m_AnchoredPosition: {x: 0, y: 2.5}
   m_SizeDelta: {x: 59.6484, y: 59.6484}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1942407859
@@ -3359,7 +3359,7 @@ GameObject:
   - component: {fileID: 5534932322678300015}
   - component: {fileID: 1887055848219117333}
   m_Layer: 0
-  m_Name: GuardLPfinal@Idle
+  m_Name: Guard Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3374,7 +3374,7 @@ Transform:
   m_GameObject: {fileID: 5159954415878211541}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.010000229, y: 0, z: 0}
-  m_LocalScale: {x: 0.79, y: 0.79, z: 0.79}
+  m_LocalScale: {x: 0.90000004, y: 0.90000004, z: 0.90000004}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2373657505801303306}
@@ -3398,7 +3398,7 @@ Animator:
   m_GameObject: {fileID: 5159954415878211541}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 51722ee11e5a2614fadebe1715b4cd32, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 447d15355cadb154090d7ebb5a2403f6, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 1

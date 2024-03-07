@@ -10622,7 +10622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 1865186471}
-  UIgroup: {fileID: 0}
+  UIgroup: {fileID: 1139868255}
   hasGameEnded: 0
   restartDelay: 1
 --- !u!1 &465531140
