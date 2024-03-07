@@ -5196,7 +5196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68a2c5c32b4aae44ca558199bbb14fe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRate: 0.2
+  detectionRate: 1.5
   fov: 5
   fovAngle: 45
   alertStage: 0
