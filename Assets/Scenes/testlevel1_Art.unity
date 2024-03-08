@@ -9071,7 +9071,7 @@ PrefabInstance:
     - target: {fileID: 3018888742190333804, guid: f6b8e9741d6cbe24ab0ad5cb2618df7f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.19
+      value: 1.03
       objectReference: {fileID: 0}
     - target: {fileID: 3018888742190333804, guid: f6b8e9741d6cbe24ab0ad5cb2618df7f,
         type: 3}
@@ -9081,7 +9081,7 @@ PrefabInstance:
     - target: {fileID: 3018888742190333804, guid: f6b8e9741d6cbe24ab0ad5cb2618df7f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.29
+      value: -7.79
       objectReference: {fileID: 0}
     - target: {fileID: 3018888742190333804, guid: f6b8e9741d6cbe24ab0ad5cb2618df7f,
         type: 3}
@@ -10622,7 +10622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverUI: {fileID: 1865186471}
-  UIgroup: {fileID: 1139868255}
+  UIgroup: {fileID: 1865186474}
   hasGameEnded: 0
   restartDelay: 1
 --- !u!1 &465531140
@@ -43494,7 +43494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newFrequency: 1
-  prompt: Change Frequency
+  prompt: Change Frequency [E]
 --- !u!65 &1691383800
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47924,7 +47924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newFrequency: 2
-  prompt: Change Frequency
+  prompt: Change Frequency [E]
 --- !u!65 &1852572811
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -48460,6 +48460,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 902518519}
   m_PrefabAsset: {fileID: 0}
+--- !u!225 &1865186474
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865186471}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1001 &1873851030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50051,8 +50063,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.000001, y: 3.2689152, z: 10}
-  m_Center: {x: 0, y: 0.73054254, z: 0}
+  m_Size: {x: 10.000001, y: 3.559602, z: 10}
+  m_Center: {x: 0, y: 0.58519936, z: 0}
 --- !u!114 &1925126993
 MonoBehaviour:
   m_ObjectHideFlags: 0

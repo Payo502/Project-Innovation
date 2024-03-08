@@ -23,6 +23,7 @@ public class Wingame : MonoBehaviour
         {
             winScreen.SetActive(true);
             ServerMessageManager.Singleton.SendStringMessagesToClient(ServerToClientId.stringMessage, sound);
+            Time.timeScale = 0f;
             winning = true;
         }
     }
