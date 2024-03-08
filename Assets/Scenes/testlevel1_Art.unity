@@ -28203,7 +28203,7 @@ PrefabInstance:
     - target: {fileID: 9022022930350849125, guid: 2395a2c01aaeaa14d915187cec61c0aa,
         type: 3}
       propertyPath: currentFrequency
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2395a2c01aaeaa14d915187cec61c0aa, type: 3}
@@ -32995,7 +32995,7 @@ PrefabInstance:
     - target: {fileID: 9022022930350849125, guid: 2395a2c01aaeaa14d915187cec61c0aa,
         type: 3}
       propertyPath: currentFrequency
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2395a2c01aaeaa14d915187cec61c0aa, type: 3}
